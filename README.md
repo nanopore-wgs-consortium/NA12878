@@ -2,7 +2,7 @@
 
 ## Contributors
 
-Mark Akeson (1), Andrew D. Beggs (2), Louise Tee (3), Thomas Nieto (3), Miten Jain (1), Nicholas J. Loman (3), Matt Loose (4), Sunir Malla (4), Justin O’Grady (5), Hugh E. Olsen (1), Josh Quick (3), Hollian Richardson (5), Jared T. Simpson (6,7), Terrance P. Snutch (8), John R. Tyson (
+Mark Akeson (1), Andrew D. Beggs (2), Louise Tee (3), Thomas Nieto (3), Miten Jain (1), Nicholas J. Loman (3), Matt Loose (4), Sunir Malla (4), Justin O’Grady (5), Hugh E. Olsen (1), Josh Quick (3), Hollian Richardson (5), Jared T. Simpson (6,7), Terrance P. Snutch (8), John R. Tyson (8)
 
 (1) University of California, Santa Cruz, Santa Cruz, CA, USA
 (2) University of Birmingham, Birmingham, B15 2TT
