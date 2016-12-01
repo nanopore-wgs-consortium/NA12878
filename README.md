@@ -13,6 +13,11 @@ Mark Akeson (1), Andrew D. Beggs (2), Louise Tee (3), Thomas Nieto (3), Miten Ja
    7. Department of Computer Science, University of Toronto, Toronto, Canada
    8. Michael Smith Laboratories, University of British Columbia, Vancouver, Canada
 
+## Background
+
+We have sequenced the NA12878 (Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using 1D ligation kits (450 bp/s) on R9.4 chemistry (FLO-MIN106).
+
+
 
 
 
