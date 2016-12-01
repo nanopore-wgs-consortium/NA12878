@@ -15,8 +15,12 @@ Mark Akeson (1), Andrew D. Beggs (2), Louise Tee (3), Thomas Nieto (3), Miten Ja
 
 ## Background
 
-We have sequenced the NA12878 (Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using 1D ligation kits (450 bp/s) on R9.4 chemistry (FLO-MIN106).
+We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using 1D ligation kits (450 bp/s) using R9.4 chemistry (FLO-MIN106).
 
+Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either purchased from Coriell (cat no NA12878) or extracted from the cultured cell line. 
+## Data availability
+
+We will start making data publically available from 5pm Eastern on 1st December 2016.
 
 
 
