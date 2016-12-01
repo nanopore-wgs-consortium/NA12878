@@ -21,9 +21,9 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 
 ## Data availability
 
-1.0 release: ~9M reads from 29 flowcells are available to download below, from a grand total of ~13M reads sequenced. Check back in the next few days for the remaining reads.
+1.0 release: ~9M reads from 29 flowcells are available to download below, from a grand total of ~13M reads sequenced. Check back in the next few days for the remaining reads, alignments and raw signal-level reads.
 
-| Centre   | AsicID     | Date           | Centre  | SampleType | Links                                                                          | 
+| Flowcell | AsicID     | Date           | Centre  | SampleType | Links                                                                          | 
 |----------|------------|----------------|---------|------------|--------------------------------------------------------------------------------| 
 | FAB39075 | 4246400039 | 20/09/16 19:56 | UBC     | DNA        | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/4246400039-FAB39075.fastq.gz) | 
 | FAB39043 | 3709921973 | 23/09/16 17:05 | Bham    | DNA        | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/3709921973-FAB39043.fastq.gz) | 
