@@ -55,6 +55,10 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 | FAB49914 | 3775529215 | 28/11/16 16:30 | Notts   | Cells      | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/3775529215-FAB49914.fastq.gz) | 
 | FAB45271 | 152889212  | 28/11/16 16:36 | Notts   | Cells      | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/152889212-FAB45271.fastq.gz)  | 
 
+# Read lengths
+
+![Cellular library read length distribution](cells_readlength.png)
+
 # Acknowledgements
 
 We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system.
