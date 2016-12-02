@@ -2,7 +2,7 @@
 
 ## Contributors
 
-Mark Akeson (1), Andrew D. Beggs (2), Louise Tee (3), Thomas Nieto (3), Miten Jain (1), Nicholas J. Loman (3), Matt Loose (4), Sunir Malla (4), Justin O’Grady (5), Hugh E. Olsen (1), Josh Quick (3), Hollian Richardson (5), Jared T. Simpson (6,7), Terrance P. Snutch (8), John R. Tyson (8)
+Mark Akeson (1), Andrew D. Beggs (2), Thomas Nieto (2), Miten Jain (1), Nicholas J. Loman (3), Matt Loose (4), Sunir Malla (4), Justin O’Grady (5), Hugh E. Olsen (1), Josh Quick (3), Hollian Richardson (5), Jared T. Simpson (6,7), Terrance P. Snutch (8), Louise Tee (2), John R. Tyson (8)
 
    1. University of California, Santa Cruz, Santa Cruz, CA, USA
    2. University of Birmingham, Birmingham, B15 2TT
@@ -54,6 +54,10 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 | FAF01253 | 83756522   | 28/11/16 12:54 | Bham    | Cells      | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/83756522-FAF01253.fastq.gz)   | 
 | FAB49914 | 3775529215 | 28/11/16 16:30 | Notts   | Cells      | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/3775529215-FAB49914.fastq.gz) | 
 | FAB45271 | 152889212  | 28/11/16 16:36 | Notts   | Cells      | [FASTQ](http://s3.climb.ac.uk/nanopore-human-wgs/152889212-FAB45271.fastq.gz)  | 
+
+# Acknowledgements
+
+We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system.
 
 # Contact
 
