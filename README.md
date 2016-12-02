@@ -66,7 +66,7 @@ Please verify downloads against <a href="lol.txt">MD5 hashes and list of links</
 
 ![Cellular library read length distribution](cells_readlength.png)
 
-Figure: A typical read length distribution from a cell-extracted DNA library. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
+Figure: A typical read length distribution from a flowcell where we have run a cell-extracted DNA library. The y-axis shows the count of bases. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
 
 # Acknowledgements
 
