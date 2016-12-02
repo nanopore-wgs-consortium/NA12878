@@ -59,6 +59,8 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 
 ![Cellular library read length distribution](cells_readlength.png)
 
+Figure: A typical read length distribution from a cell-extracted DNA library. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
+
 # Acknowledgements
 
 We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system.
