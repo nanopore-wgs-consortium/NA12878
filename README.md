@@ -27,6 +27,8 @@ Check back in the next few days for the remaining reads, alignments and raw sign
 
 We have processed approximately 2/3rds of the total dataset.
 
+The current release `rel2` consists of:
+
 * 25 flowcells
 * 58958035887 bases
 * 9053909 reads
