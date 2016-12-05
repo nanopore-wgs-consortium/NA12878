@@ -95,6 +95,8 @@ Reads aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ft
 | FAB49914   | 309162    | 296238 | 12280      | 12924    | 2673699794   | 9188       | [BAM](http://s3.climb.ac.uk/nanopore-human-wgs/rel2-nanopore-wgs-3775529215-FAB49914.fastq.gz.sorted.bam) | 
 | FAB45271   | 461370    | 440262 | 19535      | 21108    | 3388203702   | 7805       | [BAM](http://s3.climb.ac.uk/nanopore-human-wgs/rel2-nanopore-wgs-152889212-FAB45271.fastq.gz.sorted.bam)  | 
 
+Please verify downloads against <a href="align_md5s.txt">MD5 hashes</a>.
+
 # Read lengths
 
 ![Cellular library read length distribution](cells_readlength.png)
