@@ -101,6 +101,10 @@ Reads aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ft
 
 Figure: A typical read length distribution from a flowcell where we have run a cell-extracted DNA library. The y-axis shows the count of bases. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
 
+# Disclaimer
+
+This dataset is currently subject to rapid change as we continue to post up runs, therefore some statistics here may not represent full nanopore runs.
+
 # Acknowledgements
 
 We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system.
