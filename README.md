@@ -75,6 +75,8 @@ The `rel3` release consists of the full dataset, and has two new rapid kit runs 
 | FAB49908    | 224380 | 3141600861 | 09/12/16 | Bham    | Cells      | Rapid 1D    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-481119249-FAB49908.fastq.gz)  | 
 | FAF04090    | 91304  | 1213584440 | 09/12/16 | Bham    | Cells      | Rapid 1D    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3842965088-FAF04090.fastq.gz) | 
 
+[*] This flowcell ID was input incorrectly.
+
 #### Alignments
 
 To follow.
