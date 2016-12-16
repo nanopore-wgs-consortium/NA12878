@@ -36,44 +36,44 @@ The `rel3` release consists of the full dataset, and has two new rapid kit runs 
 | flowcell_id | reads  | bases      | Date     | Centre  | SampleType | Kit         | Pore | Links                                                                                              | 
 |-------------|--------|------------|----------|---------|------------|-------------|------|----------------------------------------------------------------------------------------------------| 
 | FAB23716    | 356209 | 1409812422 | 14/07/16 | UBC     | DNA        | Rapid       | R9   | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4244727060-FAB23716.fastq.gz) | 
-| FAB39088    | 658224 | 3287994454 | 19/09/16 | Notts   | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz)  | 
-| FAB39075    | 466329 | 2439355478 | 20/09/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246400039-FAB39075.fastq.gz) | 
-| FAB39043    | 436976 | 2273008592 | 23/09/16 | Bham    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3709921973-FAB39043.fastq.gz) | 
-| FAB42706    | 430660 | 1966505502 | 12/10/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4111103328-FAB42706.fastq.gz) | 
-| FAB41174    | 117057 | 687394987  | 13/10/16 | Bham    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3976885577-FAB41174.fastq.gz) | 
-| FAB42260    | 267644 | 1399557161 | 13/10/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4177064552-FAB42260.fastq.gz) | 
-| FAB42804    | 16669  | 75062609   | 14/10/16 | Bham    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-84744914-FAB42804.fastq.gz)   | 
-| FAB42316    | 572838 | 3275026637 | 14/10/16 | Notts   | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-216722908-FAB42316.fastq.gz)  | 
-| FAB42205    | 317654 | 1686630108 | 14/10/16 | Notts   | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3573838535-FAB42205.fastq.gz) | 
-| FAB42561    | 233678 | 1520513556 | 19/10/16 | Notts   | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-356443753-FAB42561.fastq.gz)  | 
-| FAB42473    | 644869 | 3357548938 | 19/10/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4179682758-FAB42473.fastq.gz) | 
-| FAB42395    | 38291  | 179704035  | 20/10/16 | Norwich | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4178605061-FAB42395.fastq.gz) | 
-| FAB42476    | 435158 | 2363036522 | 27/10/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3843483077-FAB42476.fastq.gz) | 
-| FAB42451    | 817629 | 4530477841 | 28/10/16 | Notts   | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4239353418-FAB42451.fastq.gz) | 
-| FAB42704    | 276152 | 1750149482 | 28/10/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-87746129-FAB42704.fastq.gz)   | 
-| FAB42828    | 33527  | 163405138  | 01/11/16 | Norwich | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288548394-FAB42828.fastq.gz)  | 
-| FAB42810    | 322058 | 2020615256 | 02/11/16 | Norwich | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-352384898-FAB42810.fastq.gz)  | 
-| FAB42798    | 193551 | 1339441522 | 03/11/16 | Norwich | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3306352129-FAB42798.fastq.gz) | 
-| FAB45280    | 128234 | 799554798  | 11/11/16 | Norwich | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-222619780-FAB45280.fastq.gz)  | 
-| FAB46664    | 491346 | 2038018797 | 15/11/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288286712-FAB46664.fastq.gz)  | 
-| FAB46683    | 72605  | 286275511  | 17/11/16 | Bham    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246923067-FAB46683.fastq.gz) | 
-| FAB45332    | 530938 | 2864140853 | 17/11/16 | UBC     | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-551111640-FAB45332.fastq.gz)  | 
-| FAB43577    | 426941 | 2539015084 | 18/11/16 | UCSC    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3574887596-FAB43577.fastq.gz) | 
-| FAB44989    | 558224 | 3443824633 | 18/11/16 | UCSC    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-2567311907-FAB44989.fastq.gz) | 
-| FAF01169    | 339447 | 2913892142 | 22/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4245879798-FAF01169.fastq.gz) | 
-| FAF01441    | 254705 | 2203636947 | 22/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3910073345-FAF01441.fastq.gz) | 
-| FAB45277    | 53547  | 445641679  | 22/11/16 | Notts   | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-86567043-FAB45277.fastq.gz)   | 
-| FAB45321    | 299174 | 2584017112 | 22/11/16 | Notts   | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-19064779-FAB45321.fastq.gz)   | 
-| FAF01127    | 632728 | 4972081712 | 25/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-353303576-FAF01127.fastq.gz)  | 
-| FAF01132    | 689781 | 5455971336 | 25/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-84868110-FAF01132.fastq.gz)   | 
-| FAB49712    | 632158 | 4906148911 | 28/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-622291475-FAB49712.fastq.gz)  | 
-| FAF01253    | 471698 | 3695661984 | 28/11/16 | Bham    | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-83756522-FAF01253.fastq.gz)   | 
-| FAB45321*   | 123037 | 1043504055 | 28/11/16 | Notts   | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-285174896-FAB45321*.fastq.gz) | 
-| FAB49914    | 309175 | 2841008085 | 28/11/16 | Notts   | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3775529215-FAB49914.fastq.gz) | 
-| FAB45271    | 472656 | 3689043164 | 28/11/16 | Notts   | Cells      | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-152889212-FAB45271.fastq.gz)  | 
-| FAB49164    | 746333 | 4438258089 | 06/12/16 | UCSC    | DNA        | Ligation 1D | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4045668814-FAB49164.fastq.gz) | 
-| FAB49908    | 224380 | 3141600861 | 09/12/16 | Bham    | Cells      | Rapid 1D    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-481119249-FAB49908.fastq.gz)  | 
-| FAF04090    | 91304  | 1213584440 | 09/12/16 | Bham    | Cells      | Rapid 1D    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3842965088-FAF04090.fastq.gz) | 
+| FAB39088    | 658224 | 3287994454 | 19/09/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz)  | 
+| FAB39075    | 466329 | 2439355478 | 20/09/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246400039-FAB39075.fastq.gz) | 
+| FAB39043    | 436976 | 2273008592 | 23/09/16 | Bham    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3709921973-FAB39043.fastq.gz) | 
+| FAB42706    | 430660 | 1966505502 | 12/10/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4111103328-FAB42706.fastq.gz) | 
+| FAB41174    | 117057 | 687394987  | 13/10/16 | Bham    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3976885577-FAB41174.fastq.gz) | 
+| FAB42260    | 267644 | 1399557161 | 13/10/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4177064552-FAB42260.fastq.gz) | 
+| FAB42804    | 16669  | 75062609   | 14/10/16 | Bham    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-84744914-FAB42804.fastq.gz)   | 
+| FAB42316    | 572838 | 3275026637 | 14/10/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-216722908-FAB42316.fastq.gz)  | 
+| FAB42205    | 317654 | 1686630108 | 14/10/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3573838535-FAB42205.fastq.gz) | 
+| FAB42561    | 233678 | 1520513556 | 19/10/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-356443753-FAB42561.fastq.gz)  | 
+| FAB42473    | 644869 | 3357548938 | 19/10/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4179682758-FAB42473.fastq.gz) | 
+| FAB42395    | 38291  | 179704035  | 20/10/16 | Norwich | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4178605061-FAB42395.fastq.gz) | 
+| FAB42476    | 435158 | 2363036522 | 27/10/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3843483077-FAB42476.fastq.gz) | 
+| FAB42451    | 817629 | 4530477841 | 28/10/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4239353418-FAB42451.fastq.gz) | 
+| FAB42704    | 276152 | 1750149482 | 28/10/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-87746129-FAB42704.fastq.gz)   | 
+| FAB42828    | 33527  | 163405138  | 01/11/16 | Norwich | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288548394-FAB42828.fastq.gz)  | 
+| FAB42810    | 322058 | 2020615256 | 02/11/16 | Norwich | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-352384898-FAB42810.fastq.gz)  | 
+| FAB42798    | 193551 | 1339441522 | 03/11/16 | Norwich | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3306352129-FAB42798.fastq.gz) | 
+| FAB45280    | 128234 | 799554798  | 11/11/16 | Norwich | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-222619780-FAB45280.fastq.gz)  | 
+| FAB46664    | 491346 | 2038018797 | 15/11/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288286712-FAB46664.fastq.gz)  | 
+| FAB46683    | 72605  | 286275511  | 17/11/16 | Bham    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246923067-FAB46683.fastq.gz) | 
+| FAB45332    | 530938 | 2864140853 | 17/11/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-551111640-FAB45332.fastq.gz)  | 
+| FAB43577    | 426941 | 2539015084 | 18/11/16 | UCSC    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3574887596-FAB43577.fastq.gz) | 
+| FAB44989    | 558224 | 3443824633 | 18/11/16 | UCSC    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-2567311907-FAB44989.fastq.gz) | 
+| FAF01169    | 339447 | 2913892142 | 22/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4245879798-FAF01169.fastq.gz) | 
+| FAF01441    | 254705 | 2203636947 | 22/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3910073345-FAF01441.fastq.gz) | 
+| FAB45277    | 53547  | 445641679  | 22/11/16 | Notts   | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-86567043-FAB45277.fastq.gz)   | 
+| FAB45321    | 299174 | 2584017112 | 22/11/16 | Notts   | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-19064779-FAB45321.fastq.gz)   | 
+| FAF01127    | 632728 | 4972081712 | 25/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-353303576-FAF01127.fastq.gz)  | 
+| FAF01132    | 689781 | 5455971336 | 25/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-84868110-FAF01132.fastq.gz)   | 
+| FAB49712    | 632158 | 4906148911 | 28/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-622291475-FAB49712.fastq.gz)  | 
+| FAF01253    | 471698 | 3695661984 | 28/11/16 | Bham    | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-83756522-FAF01253.fastq.gz)   | 
+| FAB45321*   | 123037 | 1043504055 | 28/11/16 | Notts   | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-285174896-FAB45321*.fastq.gz) | 
+| FAB49914    | 309175 | 2841008085 | 28/11/16 | Notts   | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3775529215-FAB49914.fastq.gz) | 
+| FAB45271    | 472656 | 3689043164 | 28/11/16 | Notts   | Cells      | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-152889212-FAB45271.fastq.gz)  | 
+| FAB49164    | 746333 | 4438258089 | 06/12/16 | UCSC    | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4045668814-FAB49164.fastq.gz) | 
+| FAB49908    | 224380 | 3141600861 | 09/12/16 | Bham    | Cells      | Rapid    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-481119249-FAB49908.fastq.gz)  | 
+| FAF04090    | 91304  | 1213584440 | 09/12/16 | Bham    | Cells      | Rapid    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-3842965088-FAF04090.fastq.gz) | 
 
 [*] This flowcell ID was input incorrectly.
 
