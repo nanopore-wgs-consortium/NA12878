@@ -79,9 +79,35 @@ Please verify downloads against <a href="rel3-md5s.txt">MD5 hashes</a>.
 
 [*] This flowcell ID was input incorrectly.
 
-#### Alignments
+#### Alignments by chromosome
 
-To follow.
+| Chrom | Mapped # | Mapped MQ0 | Bases Mapped | Avg Length | BAM                                                                | BAI                                                                    | 
+|-------|----------|------------|--------------|------------|--------------------------------------------------------------------|------------------------------------------------------------------------| 
+| chr1  | 1075867  | 43397      | 6829526262   | 6744       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr1.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr1.sorted.bam.bai)  | 
+| chr2  | 1062314  | 31802      | 6755642896   | 6842       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr2.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr2.sorted.bam.bai)  | 
+| chr3  | 858643   | 24189      | 5487703898   | 6757       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr3.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr3.sorted.bam.bai)  | 
+| chr4  | 845677   | 30723      | 5395140705   | 6890       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr4.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr4.sorted.bam.bai)  | 
+| chr5  | 774613   | 23499      | 4953273570   | 6821       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr5.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr5.sorted.bam.bai)  | 
+| chr6  | 723047   | 24496      | 4618883250   | 6762       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr6.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr6.sorted.bam.bai)  | 
+| chr7  | 696473   | 28231      | 4382999832   | 6772       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr7.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr7.sorted.bam.bai)  | 
+| chr8  | 617988   | 23361      | 3968911801   | 6844       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr8.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr8.sorted.bam.bai)  | 
+| chr9  | 539660   | 25898      | 3428430670   | 6764       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr9.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr9.sorted.bam.bai)  | 
+| chr10 | 594688   | 20787      | 3805443564   | 6845       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr10.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr10.sorted.bam.bai) | 
+| chr11 | 583055   | 17748      | 3710684724   | 6855       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr11.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr11.sorted.bam.bai) | 
+| chr12 | 586663   | 17891      | 3734922623   | 6840       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr12.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr12.sorted.bam.bai) | 
+| chr13 | 440615   | 17662      | 2844212242   | 6904       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr13.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr13.sorted.bam.bai) | 
+| chr14 | 383777   | 15752      | 2439119767   | 6713       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr14.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr14.sorted.bam.bai) | 
+| chr15 | 359853   | 19556      | 2268233023   | 6838       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr15.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr15.sorted.bam.bai) | 
+| chr16 | 386401   | 22680      | 2425913744   | 6787       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr16.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr16.sorted.bam.bai) | 
+| chr17 | 369036   | 22907      | 2302471086   | 6661       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr17.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr17.sorted.bam.bai) | 
+| chr18 | 339094   | 13053      | 2172098564   | 6807       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr18.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr18.sorted.bam.bai) | 
+| chr19 | 257039   | 10926      | 1472760724   | 6266       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr19.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr19.sorted.bam.bai) | 
+| chr20 | 291960   | 13226      | 1829244829   | 6659       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr20.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr20.sorted.bam.bai) | 
+| chr21 | 192383   | 24988      | 1207807437   | 6792       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr21.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr21.sorted.bam.bai) | 
+| chr22 | 172934   | 10514      | 1041347396   | 6665       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr22.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr22.sorted.bam.bai) | 
+| chrX  | 658347   | 28769      | 4210769167   | 7076       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chrX.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chrX.sorted.bam.bai)  | 
+| chrY  | 23378    | 5292       | 133803203    | 7869       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chrY.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chrY.sorted.bam.bai)  | 
+| chrM  | 59363    | 658        | 91949786     | 1628       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chrM.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chrM.sorted.bam.bai)  | 
 
 ### rel2
 
