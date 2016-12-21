@@ -21,7 +21,7 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 
 ## Data availability
 
-Check back in the next few days for the remaining reads, alignments and raw signal-level reads.
+Check back soon for the raw signal-level reads (FAST5).
 
 ### rel3
 
