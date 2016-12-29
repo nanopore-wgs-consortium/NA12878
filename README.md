@@ -159,7 +159,9 @@ Flowcell alignments were separated into individual chromosomes using `samtools m
 
 # FAST5 (Signal Level files)
 
-|       |                                                                                         |                                                                                         |                                                                                         |                                                                                         | 
+FAST5 files have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename).
+
+| Chrom   |                                                                                         |                                                                                         |                                                                                         |                                                                                         | 
 |-------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------| 
 | chr1  | [part1 (391 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part01.tar)  | [part2 (291 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part02.tar)  | [part3 (284 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part03.tar)  | [part4 (265 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part04.tar)  | 
 | chr2  | [part1 (395 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part01.tar)  | [part2 (311 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part02.tar)  | [part3 (279 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part03.tar)  |                                                                                         | 
