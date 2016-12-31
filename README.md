@@ -165,7 +165,7 @@ Flowcell alignments were separated into individual chromosomes using `samtools m
 
 # FAST5 (Signal Level files)
 
-FAST5 files have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename).
+FAST5 files have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename). Each complete 'part' contains 100,000 reads and should be roughly in sort order along the chromosome to aid region-by-region analysis.
 
 | Chrom |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         | 
 |-------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------| 
