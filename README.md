@@ -21,7 +21,13 @@ Human genomic DNA from GM12878 human cell line (Ceph/Utah pedigree) was either p
 
 ## Data availability
 
-Check back soon for the raw signal-level reads (FAST5).
+### Notes on downloading files.
+
+Files are generously hosted by Amazon Web Services. Although available as straight-forward HTTP links, download performance is improved by using the Amazon Web Services <a href="https://aws.amazon.com/cli/">command-line interface</a>. Replace `http://s3.amazon.com/nanopore-human-wgs/` with `s3://nanopore-human-wgs` to download. For example, to download `rel3-nanopore-wgs-288418386-FAB39088` to the current working directory use the following commands.
+
+    aws s3 cp s3://nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz .
+
+Amending the `max_concurrent_requests` etc. settings as per <a href="http://docs.aws.amazon.com/cli/latest/topic/s3-config.html">this guide</a> will improve download performance further.
 
 ### rel3
 
