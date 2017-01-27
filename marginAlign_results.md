@@ -18,7 +18,7 @@ These alignments were produced by learning the HMM from the guide (BWA) alignmen
 skipped and so each read may have multiple alignments
 
 | Chrom | BAM                                                                                             |
-|  ---  | ______----------------------------------------------------------------------------------------------- |
+|  ---  | ----------------------------------------------------------------------------------------------- |
 | Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_noChain_realigned.bam_) |
 
 
