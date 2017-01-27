@@ -17,6 +17,6 @@ reference.
 These alignments were produced by learning the HMM from the guide (BWA) alignment then realigning, the chaining step was
 skipped and so each read may have multiple alignments
 
-| Chrom | BAM                                                                                           |
-|-------|_______-----------------------------------------------------------------------------------------------|
+| Chrom | BAM                                                                                             |
+|  ---  | ______----------------------------------------------------------------------------------------------- |
 | Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_noChain_realigned.bam_) |
