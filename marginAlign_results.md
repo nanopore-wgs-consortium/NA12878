@@ -6,6 +6,7 @@ typically more accurate.
 ### Chained BAMs
 By default `marginAlign` chains the guide alignment so that each read has one maximal (by length) alignment to the
 reference.
+
 | Chrom | BAM                                                                                      |
 |-------|------------------------------------------------------------------------------------------|
 | Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_realigned.bam)   |
@@ -15,6 +16,7 @@ reference.
 ### Non-chained BAMs
 These alignments were produced by learning the HMM from the guide (BWA) alignment then realigning, the chaining step was
 skipped and so each read may have multiple alignments
+
 | Chrom | BAM                                                                                           |
 |-------|_______-----------------------------------------------------------------------------------------------|
 | Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_noChain_realigned.bam_) |
