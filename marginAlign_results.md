@@ -8,7 +8,7 @@ By default `marginAlign` chains the guide alignment so that each read has one ma
 reference.
 
 | Chrom | BAM                                                                                      |
-|-------|------------------------------------------------------------------------------------------|
+|  ---  | ---------------------------------------------------------------------------------------- |
 | Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_realigned.bam)   |
 | Chr20 | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr20/chr20_realigned.bam) |
 | Chr22 | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr22/chr22_realigned.bam) |
