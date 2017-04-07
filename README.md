@@ -231,6 +231,26 @@ Unpolished assembly results from all above nanopore data <a href="http://s3.amaz
 
 Figure: A typical read length distribution from a flowcell where we have run a cell-extracted DNA library. The y-axis shows the count of bases. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
 
+# SV call set
+Kindly contributed by Fritz Sedlazeck, Philipp Rescheneder and Michael Schatz
+
+Data available <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/"> here </a>.
+
+| Description			 | Link  | MD5sum |
+|------------------------|-------|--------|
+|NGM-LR 2.3 alignments   |<a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/ngm_Nanopore_human_ngmlr-0.2.3_mapped.bam"> ngmlr.bam</a> | 738a4de33885ff59fabb5c41081d4c98 | 
+|Sniffles 1.0.4 call set | <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/ngm_Nanopore_human_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_noalts.vcf.gz"> sniffles.vcf</a>| 02fe7f3970b0d59e3d4a047871cfd6d1 | 
+
+## SVs stats
+
+|Len          | Deletions  | Duplications | Inversions | Insertions | Translocations |
+|-------------|------------|--------------|------------|------------|----------------|
+|30-50bp      |      14846 |          0   |     0      | 408     	| 			  0  |
+|50-100bp     |       6784 |           1  |      4     |  1118      | 			  0  |
+|100-1000bp   |       4921 |          21  |     266    | 3191       | 			  0  |
+|1000-10000bp |       546  |          26  |     47     | 92         |			  0  |
+|10000+bp 	  |         50 |          39  |     6      | 0          |			  43 |
+
 # Disclaimer
 
 This dataset is currently subject to rapid change as we continue to post up runs, therefore some statistics here may not represent full nanopore runs.
