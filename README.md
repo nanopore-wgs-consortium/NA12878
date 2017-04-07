@@ -243,7 +243,7 @@ Data available <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedl
 
 ## SVs stats
 
-|Len          | Deletions  | Duplications | Inversions | Insertions | Translocations |
+|Length       | Deletions  | Duplications | Inversions | Insertions | Translocations |
 |-------------|------------|--------------|------------|------------|----------------|
 |30-50bp      |      14846 |          0   |     0      | 408     	| 			  0  |
 |50-100bp     |       6784 |           1  |      4     |  1118      | 			  0  |
