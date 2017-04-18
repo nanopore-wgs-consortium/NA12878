@@ -89,22 +89,22 @@ Please verify downloads against <a href="rel3-md5s.txt">MD5 hashes</a>.
 
 Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using the new ultra-long read protocol.
 
-| asic_id    | nreads | mn    | count      | n50    | flowcell_id | condition       | centre | pore | sampletype | kit      | url                                                                                                | 
-|------------|--------|-------|------------|--------|-------------|-----------------|--------|------|------------|----------|----------------------------------------------------------------------------------------------------| 
-| 16056159   | 82138  | 21998 | 1806857522 | 114375 | FAF15665    | ultrareads      | Notts  | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-16056159-FAF15665.fastq.gz)   | 
-| 17958431   | 53723  | 23321 | 1252868852 | 77045  | FAF13748    | ultrareads      | Notts  | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-17958431-FAF13748.fastq.gz)   | 
-| 2901545329 | 41385  | 20506 | 848632752  | 54473  | FAF10039    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-2901545329-FAF10039.fastq.gz) | 
-| 3439856925 | 19674  | 30217 | 594496244  | 121393 | FAF09968    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3439856925-FAF09968.fastq.gz) | 
-| 3709819546 | 73755  | 26946 | 1987434656 | 117805 | FAF09277    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3709819546-FAF09277.fastq.gz) | 
-| 3976726082 | 75692  | 24191 | 1831031405 | 88882  | FAF14035    | ultrareads      | Notts  | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3976726082-FAF14035.fastq.gz) | 
-| 4109802543 | 61227  | 25048 | 1533616061 | 104528 | FAF15694    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4109802543-FAF15694.fastq.gz) | 
-| 4111860526 | 65142  | 25171 | 1639658993 | 93299  | FAF09713    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4111860526-FAF09713.fastq.gz) | 
-| 4178920553 | 270189 | 10106 | 2730589684 | 24848  | FAF18554    | rapid-cells2    | UBC    | R9.4 | Cells      | Rapid    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4178920553-FAF18554.fastq.gz) | 
-| 4244782843 | 9663   | 33401 | 322753214  | 102804 | FAF15630    | ultrareads      | Notts  | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4244782843-FAF15630.fastq.gz) | 
-| 4245291640 | 72936  | 20524 | 1496943560 | 92109  | FAF09640    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4245291640-FAF09640.fastq.gz) | 
-| 4249180049 | 68169  | 25394 | 1731054841 | 119444 | FAF09701    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4249180049-FAF09701.fastq.gz) | 
-| 82266371   | 71155  | 24602 | 1750584936 | 118548 | FAF15586    | ultrareads      | Bham   | R9.4 | Cells      | Ultra    | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-82266371-FAF15586.fastq.gz)   | 
-| 87644245   | 451020 | 8012  | 3613667827 | 13920  | FAF05869    | ligation-cells2 | UBC    | R9.4 | Cells      | Ligation | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-87644245-FAF05869.fastq.gz)   | 
+| asic_id    | nreads | mn    | count      | n50    | flowcell | centre | kit      | date       | sequencedate                                                                                       | 
+|------------|--------|-------|------------|--------|----------|--------|----------|------------|----------------------------------------------------------------------------------------------------| 
+| 16056159   | 82138  | 21998 | 1806857522 | 114375 | FAF15665 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-16056159-FAF15665.fastq.gz)   | 
+| 17958431   | 53723  | 23321 | 1252868852 | 77045  | FAF13748 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-17958431-FAF13748.fastq.gz)   | 
+| 2901545329 | 41385  | 20506 | 848632752  | 54473  | FAF10039 | Bham   | Ultra    | 01/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-2901545329-FAF10039.fastq.gz) | 
+| 3439856925 | 19674  | 30217 | 594496244  | 121393 | FAF09968 | Bham   | Ultra    | 03/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3439856925-FAF09968.fastq.gz) | 
+| 3709819546 | 73755  | 26946 | 1987434656 | 117805 | FAF09277 | Bham   | Ultra    | 03/06/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3709819546-FAF09277.fastq.gz) | 
+| 3976726082 | 75692  | 24191 | 1831031405 | 88882  | FAF14035 | Notts  | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3976726082-FAF14035.fastq.gz) | 
+| 4109802543 | 61227  | 25048 | 1533616061 | 104528 | FAF15694 | Bham   | Ultra    | 06/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4109802543-FAF15694.fastq.gz) | 
+| 4111860526 | 65142  | 25171 | 1639658993 | 93299  | FAF09713 | Bham   | Ultra    | 07/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4111860526-FAF09713.fastq.gz) | 
+| 4178920553 | 270189 | 10106 | 2730589684 | 24848  | FAF18554 | UBC    | Rapid    | 06/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4178920553-FAF18554.fastq.gz) | 
+| 4244782843 | 9663   | 33401 | 322753214  | 102804 | FAF15630 | Notts  | Ultra    | 09/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4244782843-FAF15630.fastq.gz) | 
+| 4245291640 | 72936  | 20524 | 1496943560 | 92109  | FAF09640 | Bham   | Ultra    | 07/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4245291640-FAF09640.fastq.gz) | 
+| 4249180049 | 68169  | 25394 | 1731054841 | 119444 | FAF09701 | Bham   | Ultra    | 03/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4249180049-FAF09701.fastq.gz) | 
+| 82266371   | 71155  | 24602 | 1750584936 | 118548 | FAF15586 | Bham   | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-82266371-FAF15586.fastq.gz)   | 
+| 87644245   | 451020 | 8012  | 3613667827 | 13920  | FAF05869 | UBC    | Ligation | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-87644245-FAF05869.fastq.gz)   | 
 
 #### Alignments by flowcell
 
