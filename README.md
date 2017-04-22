@@ -223,28 +223,28 @@ FAST5 files have been split by chromosome according to the above alignments, mea
 
   * [Scrappie chr20 FASTA](http://s3.amazonaws.com/nanopore-human-wgs/na12878.chr20ScrappieFiltered.fasta)
   * [Scrappie chr20 BAM](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20ScrappieFiltered.sorted.bam) [BAI](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20ScrappieFiltered.sorted.bam.bai)
-  * [Scrappie Canu assembly](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20.scrappie.fasta)
-  * [Scrappie Canu assembly + Pilon](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20.scrappiepolished2.fasta)
 
-# De novo assembly
+# De novo assemblies
 
-Kindly contributed by Adam Philippy and Sergey Koren.
-
-Unpolished assembly results from all above nanopore data <a href="http://s3.amazonaws.com/nanopore-human-wgs/asm.contigs.fasta.gz">Canu contigs</a>.
-
-## Assembly stats
-
-	Contigs: 2886
-	Bases: 2646010004
-	Min: 1,673
-	Max: 27,160,256
-	NG25: 6,437,016 COUNT: 80
-	NG50: 2,963,950 COUNT: 266
-	NG75: 670,702 COUNT: 776
-
-## Synteny plot
-
-<img src="asm.png" />
+   * [canu.20x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.20x.contigs.fasta), md5 ``12ab2c03983ab1afd256ec826e89d786``
+   * [canu.30x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.fasta), md5 ``b22086754b4bc4555db59f6fd7a82e47``
+   * [canu.30x.contigs.polished1.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished1.fasta), md5 ``dcdd543ddc8947276024e9a6ad8d9990``
+   * [canu.30x.contigs.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished2.fasta), md5 ``de4d0af9782a9f853ae51c30370867b9``
+   * [canu.30x.contigs.polished3.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished3.fasta), md5 ``dc94952a44637988978908a79415704a``
+   * [canu.35x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.35x.contigs.fasta), md5 ``ff5ef9c98ec70c3c4145e8dcac3178e4``
+   * [canu.35x.contigs.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.35x.contigs.polished2.fasta), md5 ``d91214b1ca89aaabe95ca5ff52cee50e``
+   * [canu.chr20.metrichor.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.fasta), md5 ``d2ad6a6ed1260fd32c19c704f02a6d3a``
+   * [canu.chr20.metrichor.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.nanopolish.fasta), md5 ``888d2d81571a09467a9091a1f0e589ad``
+   * [canu.chr20.metrichor.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.nanopolish.polished2.fasta), md5 ``4510f05409243c473c2e92b6cb245aaf``
+   * [canu.chr20.metrichor.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.polished2.fasta), md5 ``9b456459b45ed8549bac50fcf2027039``
+   * [canu.chr20.nanonet.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.fasta), md5 ``f63b89396bdba099348f51cb8d23ff13``
+   * [canu.chr20.nanonet.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.nanopolish.fasta), md5 ``57f56dbdb0d91ed640f28745df01e6d6``
+   * [canu.chr20.nanonet.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.nanopolish.polished2.fasta), md5 ``a4ad5a39760f1a1bed2237a1c033fe9a``
+   * [canu.chr20.nanonet.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.polished2.fasta), md5 ``4bc6f3284dc209a661ddc9f21a80f829``
+   * [canu.chr20.scrappie.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.fasta), md5 ``70e4dcc72a87ad071da655066a4b77f9``
+   * [canu.chr20.scrappie.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.nanopolish.fasta), md5 ``122e36327c9d7c9f44387a71e05acbe6``
+   * [canu.chr20.scrappie.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.nanopolish.polished2.fasta), md5 ``1287822a8941a806473c2304c9e95185``
+   * [canu.chr20.scrappie.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.polished2.fasta), md5 ``0681fdf186a4562da03f8997a614e3bc``
 
 # Read lengths
 
