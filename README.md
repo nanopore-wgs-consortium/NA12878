@@ -85,6 +85,27 @@ Please verify downloads against <a href="rel3-md5s.txt">MD5 hashes</a>.
 
 [*] This flowcell ID was input incorrectly.
 
+### rel4
+
+Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using the new ultra-long read protocol.
+
+| asic_id    | nreads | mn    | count      | n50    | flowcell | centre | kit      | date       | sequencedate                                                                                       | 
+|------------|--------|-------|------------|--------|----------|--------|----------|------------|----------------------------------------------------------------------------------------------------| 
+| 16056159   | 82138  | 21998 | 1806857522 | 114375 | FAF15665 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-16056159-FAF15665.fastq.gz)   | 
+| 17958431   | 53723  | 23321 | 1252868852 | 77045  | FAF13748 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-17958431-FAF13748.fastq.gz)   | 
+| 2901545329 | 41385  | 20506 | 848632752  | 54473  | FAF10039 | Bham   | Ultra    | 01/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-2901545329-FAF10039.fastq.gz) | 
+| 3439856925 | 19674  | 30217 | 594496244  | 121393 | FAF09968 | Bham   | Ultra    | 03/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3439856925-FAF09968.fastq.gz) | 
+| 3709819546 | 73755  | 26946 | 1987434656 | 117805 | FAF09277 | Bham   | Ultra    | 03/06/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3709819546-FAF09277.fastq.gz) | 
+| 3976726082 | 75692  | 24191 | 1831031405 | 88882  | FAF14035 | Notts  | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-3976726082-FAF14035.fastq.gz) | 
+| 4109802543 | 61227  | 25048 | 1533616061 | 104528 | FAF15694 | Bham   | Ultra    | 06/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4109802543-FAF15694.fastq.gz) | 
+| 4111860526 | 65142  | 25171 | 1639658993 | 93299  | FAF09713 | Bham   | Ultra    | 07/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4111860526-FAF09713.fastq.gz) | 
+| 4178920553 | 270189 | 10106 | 2730589684 | 24848  | FAF18554 | UBC    | Rapid    | 06/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4178920553-FAF18554.fastq.gz) | 
+| 4244782843 | 9663   | 33401 | 322753214  | 102804 | FAF15630 | Notts  | Ultra    | 09/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4244782843-FAF15630.fastq.gz) | 
+| 4245291640 | 72936  | 20524 | 1496943560 | 92109  | FAF09640 | Bham   | Ultra    | 07/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4245291640-FAF09640.fastq.gz) | 
+| 4249180049 | 68169  | 25394 | 1731054841 | 119444 | FAF09701 | Bham   | Ultra    | 03/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-4249180049-FAF09701.fastq.gz) | 
+| 82266371   | 71155  | 24602 | 1750584936 | 118548 | FAF15586 | Bham   | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-82266371-FAF15586.fastq.gz)   | 
+| 87644245   | 451020 | 8012  | 3613667827 | 13920  | FAF05869 | UBC    | Ligation | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-87644245-FAF05869.fastq.gz)   | 
+
 #### Alignments by flowcell
 
 Reads aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/> with decoys using BWA MEM (commit: `5961611c358e480110793bbf241523a3cfac049b`) using parameters `-x ont2d`. Alignment statistics calculated using `samtools stats` (samtools version 1.3.1).
@@ -167,7 +188,8 @@ Flowcell alignments were separated into individual chromosomes using `samtools m
 
 FAST5 files have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename). Each complete 'part' contains 100,000 reads and should be roughly in sort order along the chromosome to aid region-by-region analysis. 
 
-       |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                        | 
+
+| chrom      |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                        | 
 |-------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------| 
 | chr1  | [part1 (391 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part01.tar)  | [part2 (291 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part02.tar)  | [part3 (284 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part03.tar)  | [part4 (265 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part04.tar)  | [part5 (265 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part05.tar)  | [part6 (242 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part06.tar)  | [part7 (269 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part07.tar)  | [part8 (202 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part08.tar)  | [part9 (205 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr1.part09.tar) | 
 | chr2  | [part1 (395 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part01.tar)  | [part2 (311 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part02.tar)  | [part3 (279 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part03.tar)  | [part4 (287 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part04.tar)  | [part5 (288 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part05.tar)  | [part6 (300 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part06.tar)  | [part7 (266 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part07.tar)  | [part8 (247 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part08.tar)  | [part9 (223 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chr2.part09.tar) | 
@@ -194,6 +216,7 @@ FAST5 files have been split by chromosome according to the above alignments, mea
 | chrY  | [part1 (584 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chrY.part01.tar)  |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                        | 
 | chrM  | [part1 (33 G)](http://s3.amazonaws.com/nanopore-human-wgs/rel3-fast5-chrM.part01.tar)   |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                        | 
 
+
 # Alternative basecalls
 
 <a name="scrappie"></a>
@@ -202,28 +225,28 @@ FAST5 files have been split by chromosome according to the above alignments, mea
 
   * [Scrappie chr20 FASTA](http://s3.amazonaws.com/nanopore-human-wgs/na12878.chr20ScrappieFiltered.fasta)
   * [Scrappie chr20 BAM](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20ScrappieFiltered.sorted.bam) [BAI](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20ScrappieFiltered.sorted.bam.bai)
-  * [Scrappie Canu assembly](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20.scrappie.fasta)
-  * [Scrappie Canu assembly + Pilon](http://s3.amazonaws.com/nanopore-human-wgs/NA12878.chr20.scrappiepolished2.fasta)
 
-# De novo assembly
+# De novo assemblies
 
-Kindly contributed by Adam Philippy and Sergey Koren.
-
-Unpolished assembly results from all above nanopore data <a href="http://s3.amazonaws.com/nanopore-human-wgs/asm.contigs.fasta.gz">Canu contigs</a>.
-
-## Assembly stats
-
-	Contigs: 2886
-	Bases: 2646010004
-	Min: 1,673
-	Max: 27,160,256
-	NG25: 6,437,016 COUNT: 80
-	NG50: 2,963,950 COUNT: 266
-	NG75: 670,702 COUNT: 776
-
-## Synteny plot
-
-<img src="asm.png" />
+   * [canu.20x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.20x.contigs.fasta), md5 ``12ab2c03983ab1afd256ec826e89d786``
+   * [canu.30x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.fasta), md5 ``b22086754b4bc4555db59f6fd7a82e47``
+   * [canu.30x.contigs.polished1.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished1.fasta), md5 ``dcdd543ddc8947276024e9a6ad8d9990``
+   * [canu.30x.contigs.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished2.fasta), md5 ``de4d0af9782a9f853ae51c30370867b9``
+   * [canu.30x.contigs.polished3.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.30x.contigs.polished3.fasta), md5 ``dc94952a44637988978908a79415704a``
+   * [canu.35x.contigs.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.35x.contigs.fasta), md5 ``ff5ef9c98ec70c3c4145e8dcac3178e4``
+   * [canu.35x.contigs.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.35x.contigs.polished2.fasta), md5 ``d91214b1ca89aaabe95ca5ff52cee50e``
+   * [canu.chr20.metrichor.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.fasta), md5 ``d2ad6a6ed1260fd32c19c704f02a6d3a``
+   * [canu.chr20.metrichor.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.nanopolish.fasta), md5 ``888d2d81571a09467a9091a1f0e589ad``
+   * [canu.chr20.metrichor.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.nanopolish.polished2.fasta), md5 ``4510f05409243c473c2e92b6cb245aaf``
+   * [canu.chr20.metrichor.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.metrichor.polished2.fasta), md5 ``9b456459b45ed8549bac50fcf2027039``
+   * [canu.chr20.nanonet.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.fasta), md5 ``f63b89396bdba099348f51cb8d23ff13``
+   * [canu.chr20.nanonet.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.nanopolish.fasta), md5 ``57f56dbdb0d91ed640f28745df01e6d6``
+   * [canu.chr20.nanonet.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.nanopolish.polished2.fasta), md5 ``a4ad5a39760f1a1bed2237a1c033fe9a``
+   * [canu.chr20.nanonet.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.nanonet.polished2.fasta), md5 ``4bc6f3284dc209a661ddc9f21a80f829``
+   * [canu.chr20.scrappie.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.fasta), md5 ``70e4dcc72a87ad071da655066a4b77f9``
+   * [canu.chr20.scrappie.nanopolish.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.nanopolish.fasta), md5 ``122e36327c9d7c9f44387a71e05acbe6``
+   * [canu.chr20.scrappie.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.nanopolish.polished2.fasta), md5 ``1287822a8941a806473c2304c9e95185``
+   * [canu.chr20.scrappie.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.polished2.fasta), md5 ``0681fdf186a4562da03f8997a614e3bc``
 
 # Read lengths
 
@@ -231,7 +254,14 @@ Unpolished assembly results from all above nanopore data <a href="http://s3.amaz
 
 Figure: A typical read length distribution from a flowcell where we have run a cell-extracted DNA library. The y-axis shows the count of bases. Mean read length ~8.6kb with N50 of ~12.5kb (vertical line). Reads longer than 60kb are not expected due to limitations of the QIAGEN extraction kit employed.
 
-# SV call set
+# Data reuse and license
+
+We encourage the reuse of this data in your own analysis and publications which is released under the Creative Commons CC-BY license. Therefore we would be grateful if you would cite the reference below if you do.
+
+# Contributed analysis from other groups
+
+## SV call set
+
 Kindly contributed by Fritz Sedlazeck, Philipp Rescheneder and Michael Schatz
 
 Data available <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/"> here </a>.
@@ -251,19 +281,22 @@ Data available <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedl
 |1000-10000bp |       546  |          26  |     47     | 92         |			  0  |
 |10000+bp 	  |         50 |          39  |     6      | 0          |			  43 |
 
-# Disclaimer
-
-This dataset is currently subject to rapid change as we continue to post up runs, therefore some statistics here may not represent full nanopore runs.
-
 # Acknowledgements
 
 We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system. We are grateful to Angel Pizarro and Jed Sundwall at Amazon Web Services for hosting this dataset as an <a href="https://aws.amazon.com/government-education/open-data/">AWS Open Data</a> set.
 
+# Citation
+
+Miten Jain, Sergey Koren, Josh Quick, Arthur C Rand, Thomas A Sasani, John R Tyson, Andrew D Beggs, Alexander T Dilthey, Ian T Fiddes, Sunir Malla, Hannah Marriott, Karen H Miga, Tom Nieto, Justin O'Grady, Hugh E Olsen, Brent S Pedersen, Arang Rhie, Hollian Richardson, Aaron Quinlan, Terrance P Snutch, Louise Tee, Benedict Paten, Adam M. Phillippy, Jared T Simpson, Nicholas James Loman, Matthew Loose. Nanopore sequencing and assembly of a human genome with ultra-long reads. bioRxiv. doi: <a href="https://doi.org/10.1101/128835">https://doi.org/10.1101/128835</a>.
+
 # Contact
 
-Please raise issues on this Github repository concerning this dataset. A preprint describing the dataset in more detail will be available shortly.
+Please raise issues on this Github repository concerning this dataset.
 
 # History
 
     * rel1: 1st December 2016. Initial release.
     * rel2: 5th December 2016. 25 flowcells, 58958035887 bases, 9053909 reads
+    * rel3: 39 flowcells, 91240120433 bases, 14183584 reads
+    * rel4: added additional 14 flowcells, 23140190547 bases, 1415868 reads
+
