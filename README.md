@@ -106,9 +106,9 @@ Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using 
 | 82266371   | 71155  | 24602 | 1750584936 | 118548 | FAF15586 | Bham   | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-82266371-FAF15586.fastq.gz)   | 
 | 87644245   | 451020 | 8012  | 3613667827 | 13920  | FAF05869 | UBC    | Ligation | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-87644245-FAF05869.fastq.gz)   | 
 
-#### Alignments by flowcell
+### Alignments by flowcell
 
-Reads aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/> with decoys using BWA MEM (commit: `5961611c358e480110793bbf241523a3cfac049b`) using parameters `-x ont2d`. Alignment statistics calculated using `samtools stats` (samtools version 1.3.1).
+Reads for the rel3 (30x coverage dataset) aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/> with decoys using BWA MEM (commit: `5961611c358e480110793bbf241523a3cfac049b`) using parameters `-x ont2d`. Alignment statistics calculated using `samtools stats` (samtools version 1.3.1).
 
 | FileID   | Sequences | Mapped | Mapped MQ0 | Unmapped | Bases Mapped | Avg Length | Link                                                                                                        |                                                                                                                 | 
 |----------|-----------|--------|------------|----------|--------------|------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------| 
@@ -186,7 +186,7 @@ Flowcell alignments were separated into individual chromosomes using `samtools m
 
 # FAST5 (Signal Level files)
 
-FAST5 files have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename). Each complete 'part' contains 100,000 reads and should be roughly in sort order along the chromosome to aid region-by-region analysis. 
+FAST5 files for 30x dataset have been split by chromosome according to the above alignments, meaning that some files may be found in multiple archives (they can be made non-redundant by reference to the filename). Each complete 'part' contains 100,000 reads and should be roughly in sort order along the chromosome to aid region-by-region analysis. 
 
 
 | chrom      |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                         |                                                                                        | 
