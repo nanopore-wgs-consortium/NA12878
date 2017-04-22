@@ -268,7 +268,7 @@ Miten Jain, Sergey Koren, Josh Quick, Arthur C Rand, Thomas A Sasani, John R Tys
 
 # Contact
 
-Please raise issues on this Github repository concerning this dataset. A preprint describing the dataset in more detail will be available shortly.
+Please raise issues on this Github repository concerning this dataset.
 
 # History
 
