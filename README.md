@@ -106,6 +106,7 @@ Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using 
 | 82266371   | 71155  | 24602 | 1750584936 | 118548 | FAF15586 | Bham   | Ultra    | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-82266371-FAF15586.fastq.gz)   | 
 | 87644245   | 451020 | 8012  | 3613667827 | 13920  | FAF05869 | UBC    | Ligation | 08/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-87644245-FAF05869.fastq.gz)   | 
 
+
 ### Alignments by flowcell
 
 Reads for the rel3 (30x coverage dataset) aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/> with decoys using BWA MEM (commit: `5961611c358e480110793bbf241523a3cfac049b`) using parameters `-x ont2d`. Alignment statistics calculated using `samtools stats` (samtools version 1.3.1).
