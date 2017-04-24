@@ -258,29 +258,6 @@ Figure: A typical read length distribution from a flowcell where we have run a c
 
 We encourage the reuse of this data in your own analysis and publications which is released under the Creative Commons CC-BY license. Therefore we would be grateful if you would cite the reference below if you do.
 
-# Contributed analysis from other groups
-
-## SV call set
-
-Kindly contributed by Fritz Sedlazeck, Philipp Rescheneder and Michael Schatz
-
-Data available <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/"> here </a>.
-
-| Description			 | Link  | MD5sum |
-|------------------------|-------|--------|
-|NGM-LR 2.3 alignments   |<a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/ngm_Nanopore_human_ngmlr-0.2.3_mapped.bam"> ngmlr.bam</a> | 738a4de33885ff59fabb5c41081d4c98 | 
-|Sniffles 1.0.4 call set | <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/NA12878_nanopore/version1.0/ngm_Nanopore_human_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_noalts.vcf.gz"> sniffles.vcf</a>| 02fe7f3970b0d59e3d4a047871cfd6d1 | 
-
-## SVs stats
-
-|Length       | Deletions  | Duplications | Inversions | Insertions | Translocations |
-|-------------|------------|--------------|------------|------------|----------------|
-|30-50bp      |      14846 |          0   |     0      | 408     	| 			  0  |
-|50-100bp     |       6784 |           1  |      4     |  1118      | 			  0  |
-|100-1000bp   |       4921 |          21  |     266    | 3191       | 			  0  |
-|1000-10000bp |       546  |          26  |     47     | 92         |			  0  |
-|10000+bp 	  |         50 |          39  |     6      | 0          |			  43 |
-
 # Acknowledgements
 
 We would like to acknowledge the support of Oxford Nanopore Technologies in generating this dataset, with particular thanks to Rosemary Dokos, Oliver Hartwell, Jonathan Pugh and Clive Brown. We would like to thank Radoslaw Poplawski and Simon Thompson for technical assistance with configuration and optimising of the CLIMB platform file system. We are grateful to Angel Pizarro and Jed Sundwall at Amazon Web Services for hosting this dataset as an <a href="https://aws.amazon.com/government-education/open-data/">AWS Open Data</a> set.
