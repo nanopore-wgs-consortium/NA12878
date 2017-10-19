@@ -21,7 +21,6 @@
 ##INFO=<ID=PREND,Number=.,Type=String,Description="LUMPY probability curve of the END breakend">
 ##ALT=<ID=DEL,Description="Deletion">
 ##ALT=<ID=DUP,Description="Duplication">
-##ALT=<ID=DUP:TANDEM,Description="Tandem duplication">
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
 ##FORMAT=<ID=SU,Number=1,Type=Integer,Description="Number of pieces of evidence supporting the variant">
 ##FORMAT=<ID=PE,Number=1,Type=Integer,Description="Number of paired-end reads supporting the variant">
