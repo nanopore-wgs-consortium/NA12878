@@ -40,7 +40,7 @@ The `rel3` release consists of the full dataset, and has two new rapid kit runs 
 * 14183584 reads
 
 | flowcell_id | reads  | bases      | Date     | Centre  | SampleType | Kit         | Pore | Links                                                                                              | 
-|-------------|--------|------------|----------|---------|------------|-------------|------|----------------------------------------------------------------------------------------------------| 
+|-------------|--------:|------------:|----------|---------|------------|-------------|------|----------------------------------------------------------------------------------------------------| 
 | FAB23716    | 356209 | 1409812422 | 14/07/16 | UBC     | DNA        | Rapid       | R9   | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4244727060-FAB23716.fastq.gz) | 
 | FAB39088    | 658224 | 3287994454 | 19/09/16 | Notts   | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz)  | 
 | FAB39075    | 466329 | 2439355478 | 20/09/16 | UBC     | DNA        | Ligation | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246400039-FAB39075.fastq.gz) | 
@@ -90,7 +90,7 @@ Please verify downloads against <a href="rel3-md5s.txt">MD5 hashes</a>.
 Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using the new ultra-long read protocol.
 
 | asic_id    | nreads | mn    | count      | n50    | flowcell | centre | kit      | date       | sequencedate                                                                                       | 
-|------------|--------|-------|------------|--------|----------|--------|----------|------------|----------------------------------------------------------------------------------------------------| 
+|------------|--------:|-------:|------------:|--------:|----------|--------|----------|------------|----------------------------------------------------------------------------------------------------| 
 | 16056159   | 82138  | 21998 | 1806857522 | 114375 | FAF15665 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-16056159-FAF15665.fastq.gz)   | 
 | 17958431   | 53723  | 23321 | 1252868852 | 77045  | FAF13748 | Notts  | Ultra    | 10/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-17958431-FAF13748.fastq.gz)   | 
 | 2901545329 | 41385  | 20506 | 848632752  | 54473  | FAF10039 | Bham   | Ultra    | 01/03/2017 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel4-nanopore-wgs-2901545329-FAF10039.fastq.gz) | 
@@ -111,7 +111,7 @@ Rel4 adds an additional 23140190547 bases in 1415868 reads, predominantly using 
 Reads for the rel3 (30x coverage dataset) aligned against pre-computed 1000 genomes GRCh38 BWA database at <ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/> with decoys using BWA MEM (commit: `5961611c358e480110793bbf241523a3cfac049b`) using parameters `-x ont2d`. Alignment statistics calculated using `samtools stats` (samtools version 1.3.1).
 
 | FileID   | Sequences | Mapped | Mapped MQ0 | Unmapped | Bases Mapped | Avg Length | Link                                                                                                        |                                                                                                                 | 
-|----------|-----------|--------|------------|----------|--------------|------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------| 
+|----------|-----------:|--------:|------------:|----------:|--------------:|------------:|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------| 
 | FAB23716 | 356209    | 319259 | 26702      | 36950    | 1165998694   | 3957       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4244727060-FAB23716.fastq.gz.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4244727060-FAB23716.fastq.gz.sorted.bam.bai) | 
 | FAB39088 | 658224    | 613044 | 35394      | 45180    | 3007307322   | 4995       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-288418386-FAB39088.fastq.gz.sorted.bam.bai)  | 
 | FAB39075 | 466329    | 425117 | 28167      | 41212    | 2146453407   | 5230       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246400039-FAB39075.fastq.gz.sorted.bam) | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/rel3-nanopore-wgs-4246400039-FAB39075.fastq.gz.sorted.bam.bai) | 
@@ -157,7 +157,7 @@ Reads for the rel3 (30x coverage dataset) aligned against pre-computed 1000 geno
 Flowcell alignments were separated into individual chromosomes using `samtools merge`.
 
 | Chrom | Mapped # | Mapped MQ0 | Bases Mapped | Avg Length | BAM                                                                | BAI                                                                    | 
-|-------|----------|------------|--------------|------------|--------------------------------------------------------------------|------------------------------------------------------------------------| 
+|-------|----------:|------------:|--------------:|------------:|--------------------------------------------------------------------|------------------------------------------------------------------------| 
 | chr1  | 1075867  | 43397      | 6829526262   | 6744       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr1.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr1.sorted.bam.bai)  | 
 | chr2  | 1062314  | 31802      | 6755642896   | 6842       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr2.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr2.sorted.bam.bai)  | 
 | chr3  | 858643   | 24189      | 5487703898   | 6757       | [BAM](http://s3.amazonaws.com/nanopore-human-wgs/chr3.sorted.bam)  | [BAI](http://s3.amazonaws.com/nanopore-human-wgs/chr3.sorted.bam.bai)  | 
