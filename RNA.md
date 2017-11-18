@@ -1,4 +1,4 @@
-# Alignment Files>
+# Alignment Files
 
    - <http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam>
    - <http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai>
