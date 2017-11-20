@@ -1,3 +1,11 @@
+
+# Read files
+
+## cDNA Phase 1
+
+   - <http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D-phaseI.pass.fastq>
+   - <http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D-phaseI.fail.fastq>
+
 # Alignment Files
 
    - <http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam>
