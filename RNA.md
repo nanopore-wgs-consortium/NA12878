@@ -1,11 +1,21 @@
 
 # Read files
 
-## cDNA Phase 1
+## Direct RNA (full dataset, 30 runs)
 
-   - <http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D-phaseI.pass.fastq>
-   - <http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D-phaseI.fail.fastq>
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-DirectRNA.pass.dedup.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-DirectRNA.fail.dedup.fastq)
 
+## cDNA 1D (full dataset, 12 runs)
+
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq)
+
+## cDNA 1D^2 (phase 1, partial, 5 runs)
+
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D2-phaseI.pass.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D2-phaseI.fail.fastq)
+ 
 # Alignment Files
 
    - <http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam>
