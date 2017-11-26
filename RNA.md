@@ -12,7 +12,7 @@ Basecalled with Albacore 2.1
 
    - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq), n 15152101, mean 932.86, N50 1072
    - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq), n 9129338, mean 661.90, N50 841
-   - [Summary stats](http://s3.amazon.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA.summary.dedup.txt.gz)
+   - [Summary stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA.summary.dedup.txt.gz)
 
 ## cDNA 1D^2 (phase 1, partial, 5 runs)
 
