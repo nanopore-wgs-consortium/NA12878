@@ -1,20 +1,22 @@
 
 # Read files
 
+Basecalled with Albacore 2.1
+
 ## Direct RNA (full dataset, 30 runs)
 
-   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-DirectRNA.pass.dedup.fastq)
-   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-DirectRNA.fail.dedup.fastq)
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq)
 
 ## cDNA 1D (full dataset, 12 runs)
 
-   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq)
-   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq)
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq)
 
 ## cDNA 1D^2 (phase 1, partial, 5 runs)
 
-   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D2-phaseI.pass.fastq)
-   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs-rna/fastq/NA12878-cDNA-1D2-phaseI.fail.fastq)
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D2-phaseI.pass.fastq)
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D2-phaseI.fail.fastq)
  
 # Alignment Files
 
