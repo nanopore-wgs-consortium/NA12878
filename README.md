@@ -2,9 +2,9 @@
 
 ## Quick Links
 
-  * [Genomic DNA project](blob/master/Genome.md)
+  * [Genomic DNA project](Genome.md)
 
-  * [RNA project](blob/master/RNA.md)
+  * [RNA project](RNA.md)
 
 ## Data availability
 
