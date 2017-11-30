@@ -5,6 +5,57 @@
 
 We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using direct RNA sequencing kits (30 flowcells) and using the 1D ligation kit (SQK-LSK108) on R9.4 flowcells using R9.4 chemistry (FLO-MIN106). RNA from the GM12878 human cell line (Ceph/Utah pedigree) was extracted from the cultured cell line.
 
+## Contributors
+
+ - Winston Timp, Rachael Workman, Timothy Gilpatrick (_Johns Hopkins_)
+ - Jared Simpson, Phil Zuzarte, Paul Tang (_OICR_)
+ - Terry Snutch, John Tyson (_UBC_)
+ - Mark Akeson, Hugh Olsen, Benedict Paten, Angela Brooks, Miten Jain (_UCSC_)
+ - Nick Loman, Josh Quick, Andrew Beggs, Jaqueline Goes de Jesus (_University of Birmingham_)
+ - Matt Loose, Nadine Holmes, Matthew Carlile (_University of Nottingham_)
+
+## Acknowledgements
+
+We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary Dokos at Oxford Nanopore Technologies for technical and logistical assistance.
+
+## Analysis
+
+![Slide06.png](rna_slides/Slide06.png)
+![Slide07.png](rna_slides/Slide07.png)
+![Slide08.png](rna_slides/Slide08.png)
+![Slide09.png](rna_slides/Slide09.png)
+![Slide10.png](rna_slides/Slide10.png)
+![Slide11.png](rna_slides/Slide11.png)
+![Slide12.png](rna_slides/Slide12.png)
+![Slide13.png](rna_slides/Slide13.png)
+![Slide14.png](rna_slides/Slide14.png)
+![Slide15.png](rna_slides/Slide15.png)
+![Slide16.png](rna_slides/Slide16.png)
+![Slide17.png](rna_slides/Slide17.png)
+![Slide18.png](rna_slides/Slide18.png)
+![Slide19.png](rna_slides/Slide19.png)
+![Slide20.png](rna_slides/Slide20.png)
+![Slide21.png](rna_slides/Slide21.png)
+![Slide22.png](rna_slides/Slide22.png)
+![Slide23.png](rna_slides/Slide23.png)
+![Slide24.png](rna_slides/Slide24.png)
+![Slide25.png](rna_slides/Slide25.png)
+![Slide26.png](rna_slides/Slide26.png)
+![Slide27.png](rna_slides/Slide27.png)
+![Slide28.png](rna_slides/Slide28.png)
+![Slide29.png](rna_slides/Slide29.png)
+![Slide30.png](rna_slides/Slide30.png)
+![Slide31.png](rna_slides/Slide31.png)
+![Slide32.png](rna_slides/Slide32.png)
+![Slide33.png](rna_slides/Slide33.png)
+![Slide34.png](rna_slides/Slide34.png)
+![Slide35.png](rna_slides/Slide35.png)
+![Slide36.png](rna_slides/Slide36.png)
+![Slide37.png](rna_slides/Slide37.png)
+![Slide38.png](rna_slides/Slide38.png)
+![Slide39.png](rna_slides/Slide39.png)
+![Slide40.png](rna_slides/Slide40.png)
+
 ## Basecalls (Albacore 2.1)
 
 ### Direct RNA (full dataset, 30 runs)
@@ -77,3 +128,14 @@ All alignments performed using minimap2.
    - [SIRVome isoforms ERCCs Lot001485 C 170612a.gtf](http://s3.amazonaws.com/nanopore-human-wgs/rna/referenceFastaFiles/sirv/SIRVome_isoforms_ERCCs_Lot001485_C_170612a.gtf)
    - [SIRVome isoforms ERCCs Lot001485 I 170612a.gtf](http://s3.amazonaws.com/nanopore-human-wgs/rna/referenceFastaFiles/sirv/SIRVome_isoforms_ERCCs_Lot001485_I_170612a.gtf)
    - [SIRVome isoforms ERCCs Lot001485 O 170612a.gtf](http://s3.amazonaws.com/nanopore-human-wgs/rna/referenceFastaFiles/sirv/SIRVome_isoforms_ERCCs_Lot001485_O_170612a.gtf)
+
+### cDNA
+
+   - [NA12878 cDNA 1D pass BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.genbank_rna.minimap2.sorted.bam), [NA12878-cDNA-1D.pass BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.genbank_rna.minimap2.sorted.bam.bai)
+   - [NA12878 cDNA 1D fail BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.genbank_rna.minimap2.sorted.bam), [NA12878-cDNA-1D.fail BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.genbank_rna.minimap2.sorted.bam.bai)
+
+   
+   
+
+   
+   
