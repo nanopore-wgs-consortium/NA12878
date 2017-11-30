@@ -20,7 +20,6 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 
 ## Analysis
 
-![Slide06.png](rna_slides/Slide06.png)
 ![Slide07.png](rna_slides/Slide07.png)
 ![Slide08.png](rna_slides/Slide08.png)
 ![Slide09.png](rna_slides/Slide09.png)
@@ -29,7 +28,6 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 ![Slide12.png](rna_slides/Slide12.png)
 ![Slide13.png](rna_slides/Slide13.png)
 ![Slide14.png](rna_slides/Slide14.png)
-![Slide15.png](rna_slides/Slide15.png)
 ![Slide16.png](rna_slides/Slide16.png)
 ![Slide17.png](rna_slides/Slide17.png)
 ![Slide18.png](rna_slides/Slide18.png)
@@ -54,7 +52,6 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 ![Slide37.png](rna_slides/Slide37.png)
 ![Slide38.png](rna_slides/Slide38.png)
 ![Slide39.png](rna_slides/Slide39.png)
-![Slide40.png](rna_slides/Slide40.png)
 
 ## Basecalls (Albacore 2.1)
 
