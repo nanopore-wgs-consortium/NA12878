@@ -57,8 +57,8 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 
 ### Direct RNA (full dataset, 30 runs)
 
-   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq), 10302647 reads, mean 1030.24, N50 1334
-   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq), 2686736 reads, mean 430.96, N50 840
+   - [Pass](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq.gz), 10302647 reads, mean 1030.24, N50 1334
+   - [Fail](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq.gz), 2686736 reads, mean 430.96, N50 840
 
 ### cDNA 1D (full dataset, 12 runs)
 
@@ -112,7 +112,7 @@ All alignments performed using minimap2.
 
 #### pass
 
-   - [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam), [SIRVome BAI] (http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai)
+   - [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam), [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai)
    - [cDNA Abinitio BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam), [cDNA ab initio BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam.bai)
    - [Ensembl cDNA BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam), [Ensembl cDNA BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam.bai)
    - [Ensembl CDS BAM](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam), [Ensembl CDS BAI](http://s3.amazonaws.com/nanopore-human-wgs-rna/bamFiles/NA.pass.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam.bai)
