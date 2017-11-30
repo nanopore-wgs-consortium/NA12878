@@ -1,5 +1,5 @@
 
-# RNA and cDNA Sequencing on Oxford Nanopore MinION and GridION
+# Direct RNA and cDNA Sequencing of a human transcriptome on Oxford Nanopore MinION and GridION
 
 ## Introduction
 
@@ -73,11 +73,13 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 
 ### Direct RNA
 
+All runs MinION unless noted.
+
   - [Bham Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run1_20171009_DirectRNA.files.txt)
-  - [Bham Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run2_20171011_DirectRNA.files.txt)
-  - [Bham Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run3_20171011_directRNA.files.txt)
-  - [Bham Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run4_20171011_directRNA.files.txt)
-  - [Bham Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run5_20171011_directRNA.files.txt)
+  - [Bham Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run2_20171011_DirectRNA.files.txt) (GridION)
+  - [Bham Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run3_20171011_directRNA.files.txt) (GridION)
+  - [Bham Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run4_20171011_directRNA.files.txt) (GridION)
+  - [Bham Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run5_20171011_directRNA.files.txt) (GridION)
   - [Hopkins Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run1_20170928_DirectRNA.files.txt)
   - [Hopkins Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run2_20170928_DirectRNA.files.txt)
   - [Hopkins Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run3_20171003_DirectRNA.files.txt)
