@@ -1,20 +1,14 @@
 # rel5 (genomic DNA)
 
-rel5 is a merger of rel3 (regular sequencing protocols) and rel4 (ultra-read set), recalled with 
-the latest generation callers (Albacore 2.1 and guppy 0.3).
+rel5 is a merger of NA12878 DNA sequencing data from rel3 (regular sequencing protocols) and rel4 (ultra-read set), recalled with the latest generation callers (Albacore 2.1 and guppy 0.3).
 
 ## Notes on chunk size
 
-Mike Schatz and Fritz Sedlezeck (Johns Hopkins) noticed that the Albacore 2.1 had a
-high frequency of long false positive deletions that were confounding SV prediction.
-This was tracked down with the help of Chris Wright and Tim Massingham at ONT to the
-'chunk size' setting and the computation of signal scaling. Changing this value to 10000
-should remove this problem and was performed for the Guppy calls.
+Mike Schatz and Fritz Sedlezeck (Johns Hopkins) noticed that the Albacore 2.1 had a high frequency of long false positive deletions that were confounding SV prediction.  This was tracked down with the help of Chris Wright and Tim Massingham at ONT to the 'chunk size' setting and the computation of signal scaling. Changing this value to 10000 should remove this problem and was performed for the Guppy calls.
 
 ## Guppy
 
-Data was downloaded from the ENA raw submission. Guppy was run on the GridION X5. Calling took
-approximately 48 hours on dual GPUs (1080 Ti), therefore basecalling speed was ~2.4Gb/hour.
+Data was downloaded from the ENA raw submission. Guppy was run on the GridION X5. Calling took approximately 48 hours on dual GPUs (1080 Ti), therefore basecalling speed was ~2.4Gb/hour.
 
 ### Downloads
 
