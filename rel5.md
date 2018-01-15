@@ -1,4 +1,5 @@
-# Release 5 (genomic DNA)
+# rel5 (genomic DNA)
+
 
 ## Introduction
 
@@ -29,7 +30,7 @@ included for completeness.
 
    - <a href="http://s3.amazonaws.com/NA12878-Albacore2.1.fastq.gz">Albacore 2.1</a>
 
-Minimap2 alignments (minimap2 -t 12 -ax map-ont -L /mnt/human/refs/GRCh38_full_analysis_set_plus_decoy_hla.fa):
+Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_plus_decoy_hla.fa``):
 
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/NA12878-Albacore2.1.sorted.bam">BAM</a>, <a href="http://s3.amazonaws.com/nanopore-human-wgs/NA12878-Albacore2.1.sorted.bam.bai">BAI</a>.
 
