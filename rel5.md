@@ -1,10 +1,9 @@
 # rel5 (genomic DNA)
 
-
-## Introduction
-
 rel5 is a merger of rel3 (regular sequencing protocols) and rel4 (ultra-read set), recalled with 
 the latest generation callers (Albacore 2.1 and guppy 0.3).
+
+## Notes on chunk size
 
 Mike Schatz and Fritz Sedlezeck (Johns Hopkins) noticed that the Albacore 2.1 had a
 high frequency of long false positive deletions that were confounding SV prediction.
