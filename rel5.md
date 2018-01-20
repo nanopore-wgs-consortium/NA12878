@@ -8,7 +8,7 @@ Mike Schatz (Johns Hopkins) and Fritz Sedlazeck (CSHL) noticed that the Albacore
 
 ## Reference
 
-GRCh38 with decoys was used as the reference file: <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38_full_analysis_set_plus_decoy_hla.fa</a>.
+GRCh38 with decoys was used as the reference file: [GRCh38_full_analysis_set_plus_decoy_hla.fa](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38_full_analysis_set_plus_decoy_hla.fa).
 
 ## Guppy
 
