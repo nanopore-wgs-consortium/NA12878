@@ -14,6 +14,10 @@ Data was downloaded from the ENA raw submission. Guppy was run on the GridION X5
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.fastq.gz">Guppy 0.3 gDNA dataset (10kb chunk size)</a>
 
+Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_plus_decoy_hla.fa``) and samtools 1.6 with new -L flag:
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam">BAM</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam.bai">BAI</a>
+
 ## Albacore 2.1
 
 These basecalls are not recommended due to the above mentioned chunk size problem, but are
