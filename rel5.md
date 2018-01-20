@@ -4,11 +4,13 @@ rel5 is a merger of NA12878 DNA sequencing data from rel3 (regular sequencing pr
 
 ## Notes on chunk size
 
-Mike Schatz (Johns Hopkins) and Fritz Sedlazeck (CSHL) noticed that the Albacore 2.1 had a high frequency of long false positive deletions that were confounding SV prediction.  This was tracked down with the help of Chris Wright and Tim Massingham at ONT to the 'chunk size' setting and the computation of signal scaling. Changing this value to 10000 should remove this problem and was performed for the Guppy calls.
+Mike Schatz (Johns Hopkins) and Fritz Sedlazeck (CSHL) noticed that the Albacore 2.1 had a high frequency of long false positive deletions that were confounding SV prediction.  This was tracked down with the help of Chris Wright and Tim Massingham at ONT to the '"hunk size" setting and the computation of signal scaling. Changing this value to 10000 should remove this problem and was performed for the Guppy calls.
+
 
 ## Reference
 
-GRCh38 with decoys was used as the reference file: [GRCh38_full_analysis_set_plus_decoy_hla.fa](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38_full_analysis_set_plus_decoy_hla.fa).
+GRCh38 with decoys was used as the reference file: [GRCh38_full_analysis_set_plus_decoy_hla.fa](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa).
+
 
 ## Guppy
 
