@@ -237,6 +237,11 @@ FAST5 files for 30x dataset have been split by chromosome according to the above
    * [canu.chr20.scrappie.nanopolish.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.nanopolish.polished2.fasta), md5 ``1287822a8941a806473c2304c9e95185``
    * [canu.chr20.scrappie.polished2.fasta](http://s3.amazonaws.com/nanopore-human-wgs/canu.chr20.scrappie.polished2.fasta), md5 ``0681fdf186a4562da03f8997a614e3bc``
 
+# MHC haplotypes
+
+   * [mhc_haplotypeA.pilon.fasta](http://s3.amazonaws.com/nanopore-human-wgs/mhc_haplotypeA.pilon.fasta), md5 ``d3d60c4b49f194980bcba87dfb0ce9bb``
+   * [mhc_haplotypeB.pilon.fasta](http://s3.amazonaws.com/nanopore-human-wgs/mhc_haplotypeB.pilon.fasta), md5 ``020f0b2d54e1dba0bdb44b77becdb048``
+
 # Read lengths
 
 ![Cellular library read length distribution](cells_readlength.png)
