@@ -80,21 +80,11 @@ All alignments performed using minimap2.
 #### pass
 
    - [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam), [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai)
-   - [cDNA Abinitio BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam), [cDNA ab initio BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam.bai)
-   - [Ensembl cDNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam), [Ensembl cDNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam.bai)
-   - [Ensembl CDS BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam), [Ensembl CDS BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam.bai)
-   - [Ensembl ncRNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_ncrna.minimap2.sorted.bam), [Ensembl ncRNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.ensembl_ncrna.minimap2.sorted.bam.bai)
-   - [Genbank RNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.genbank_rna.minimap2.sorted.bam), [Genbank RNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.genbank_rna.minimap2.sorted.bam.bai)
    - [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam), [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai)
 
 #### fail
 
    - [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam), [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai)
-   - [cDNA ab initio BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam), [cDNA ab initio BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cdna_abinitio.minimap2.sorted.bam.bai)
-   - [Ensembl cDNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam), [Ensembl cDNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cdna_all.minimap2.sorted.bam.bai)
-   - [Ensembl CDS BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam), [Ensembl CDS BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_cds.minimap2.sorted.bam.bai)
-   - [Ensembl ncRNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_ncrna.minimap2.sorted.bam), [Ensembl ncRNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.ensembl_ncrna.minimap2.sorted.bam.bai)
-   - [Genbank RNA BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.genbank_rna.minimap2.sorted.bam), [Genbank RNA BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.genbank_rna.minimap2.sorted.bam.bai)
    - [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam), [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai)
 
 ## Reference Files
@@ -133,15 +123,10 @@ All alignments performed using minimap2.
 
 ### cDNA
 
-   - [NA12878 cDNA 1D pass BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.genbank_rna.minimap2.sorted.bam), [NA12878-cDNA-1D.pass BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.genbank_rna.minimap2.sorted.bam.bai)
-   - [NA12878 cDNA 1D fail BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.genbank_rna.minimap2.sorted.bam), [NA12878-cDNA-1D.fail BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.genbank_rna.minimap2.sorted.bam.bai)
-
 ### Run by run links
 
-   - [1D2 Bham Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171120_1D2_1Donly.all.dedeup.fastq)
-   - [1D2 Bham Run2 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171120_1D2_1Donly.all.dedeup.fastq)
-   - [1D2 Hopkins Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D2_1Donly.all.dedeup.fastq)
-   - [1D2 Hopkins Run2 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D2_1Donly.all.dedeup.fastq)
+   - [1D2 Bham Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171120_1D2_1Donly.all.dedeup.fastq), [1D2 Bham Run2 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171120_1D2_1Donly.all.dedeup.fastq)
+   - [1D2 Hopkins Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D2_1Donly.all.dedeup.fastq), [1D2 Hopkins Run2 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D2_1Donly.all.dedeup.fastq)
    - [1D2 Notts Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run1_20171106_1D2_1Donly.all.dedeup.fastq)
    - [1D2 Notts Run2 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run2_20171108_1D2_1Donly.all.dedeup.fastq)
    - [1D2 OICR Run1 all 1D only FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run1_20171208_1D2_1Donly.all.dedeup.fastq)
