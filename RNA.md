@@ -140,7 +140,7 @@ All alignments performed using minimap2.
 ### 1D cDNA
 
 #### Bham
-   - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171115_1D.fail.dedup.fastq),      
+   - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171115_1D.fail.dedup.fastq),
      [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171115_1D.pass.dedup.fastq),
      [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171115_1D.fail.dedup.fastq),
      [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171115_1D.pass.dedup.fastq),
@@ -257,8 +257,3 @@ Heng Li has make a [custom track for the UCSC genome browser](http://genome.ucsc
 ## References
 
 [1] Li, H  Twitter [link](https://twitter.com/lh3lh3/status/937166309414064129)
-
-   
-
-   
-   
