@@ -18,41 +18,6 @@ We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genom
 
 We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary Dokos at Oxford Nanopore Technologies for technical and logistical assistance.
 
-## Analysis
-
-![Slide07.png](rna_slides/Slide07.png)
-![Slide08.png](rna_slides/Slide08.png)
-![Slide09.png](rna_slides/Slide09.png)
-![Slide10.png](rna_slides/Slide10.png)
-![Slide11.png](rna_slides/Slide11.png)
-![Slide12.png](rna_slides/Slide12.png)
-![Slide13.png](rna_slides/Slide13.png)
-![Slide14.png](rna_slides/Slide14.png)
-![Slide16.png](rna_slides/Slide16.png)
-![Slide17.png](rna_slides/Slide17.png)
-![Slide18.png](rna_slides/Slide18.png)
-![Slide19.png](rna_slides/Slide19.png)
-![Slide20.png](rna_slides/Slide20.png)
-![Slide21.png](rna_slides/Slide21.png)
-![Slide22.png](rna_slides/Slide22.png)
-![Slide23.png](rna_slides/Slide23.png)
-![Slide24.png](rna_slides/Slide24.png)
-![Slide25.png](rna_slides/Slide25.png)
-![Slide26.png](rna_slides/Slide26.png)
-![Slide27.png](rna_slides/Slide27.png)
-![Slide28.png](rna_slides/Slide28.png)
-![Slide29.png](rna_slides/Slide29.png)
-![Slide30.png](rna_slides/Slide30.png)
-![Slide31.png](rna_slides/Slide31.png)
-![Slide32.png](rna_slides/Slide32.png)
-![Slide33.png](rna_slides/Slide33.png)
-![Slide34.png](rna_slides/Slide34.png)
-![Slide35.png](rna_slides/Slide35.png)
-![Slide36.png](rna_slides/Slide36.png)
-![Slide37.png](rna_slides/Slide37.png)
-![Slide38.png](rna_slides/Slide38.png)
-![Slide39.png](rna_slides/Slide39.png)
-
 ## Basecalls (Albacore 2.1)
 
 ### Direct RNA (full dataset, 30 runs)
