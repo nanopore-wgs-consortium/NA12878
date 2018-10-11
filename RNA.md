@@ -146,21 +146,21 @@ All alignments performed using minimap2.
      [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171115_1D.pass.dedup.fastq),
 
 #### JHU
-   - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D.fail.dedup.fastq)
+   - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D.fail.dedup.fastq),
      [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D.pass.dedup.fastq),
      [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D.fail.dedup.fastq),
-     [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D.pass.dedup.fastq),
+     [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D.pass.dedup.fastq)
 
 #### Notts
    - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run1_20171106_1D.fail.dedup.fastq),
      [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run1_20171106_1D.pass.dedup.fastq),
      [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run2_20171108_1D.fail.dedup.fastq),
-   	 [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run2_20171108_1D.pass.dedup.fastq),
+   	 [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run2_20171108_1D.pass.dedup.fastq)
 
 #### OICR
    - [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run1_20171117_1D.fail.dedup.fastq),
      [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run1_20171117_1D.pass.dedup.fastq),
-     [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run2_20171121_1D.fail.dedup.fastq).
+     [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run2_20171121_1D.fail.dedup.fastq),
      [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run2_20171121_1D.pass.dedup.fastq)
 
 #### UBC
