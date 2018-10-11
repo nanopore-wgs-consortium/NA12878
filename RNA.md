@@ -151,16 +151,17 @@ All alignments performed using minimap2.
      [UCSC Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170922_1D.pass.dedup.fastq)
 
 ## native RNA FASTQ
-   - [Bham Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.fail.dedup.fastq),
-   	 [Bham Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.pass.dedup.fastq),
-   	 [Bham Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.fail.dedup.fastq),
-   	 [Bham Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.pass.dedup.fastq),
-   	 [Bham Run3 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.fail.dedup.fastq),
-   	 [Bham Run3 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.pass.dedup.fastq),
-   	 [Bham Run4 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.fail.dedup.fastq),
-   	 [Bham Run4 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.pass.dedup.fastq),
-   	 [Bham Run5 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.fail.dedup.fastq),
-   	 [Bham Run5 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.pass.dedup.fastq)
+   - Bham 
+   	 [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.fail.dedup.fastq),
+   	 [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.pass.dedup.fastq),
+   	 [Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.fail.dedup.fastq),
+   	 [Run2 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.pass.dedup.fastq),
+   	 [Run3 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.fail.dedup.fastq),
+   	 [Run3 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.pass.dedup.fastq),
+   	 [Run4 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.fail.dedup.fastq),
+   	 [Run4 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.pass.dedup.fastq),
+   	 [Run5 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.fail.dedup.fastq),
+   	 [Run5 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.pass.dedup.fastq)
    - [Hopkins Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20170928_DirectRNA.fail.dedup.fastq),
    	 [Hopkins Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20170928_DirectRNA.pass.dedup.fastq),
    	 [Hopkins Run2 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20170928_DirectRNA.fail.dedup.fastq),
@@ -220,3 +221,8 @@ Heng Li has make a [custom track for the UCSC genome browser](http://genome.ucsc
 ## References
 
 [1] Li, H  Twitter [link](https://twitter.com/lh3lh3/status/937166309414064129)
+
+   
+
+   
+   
