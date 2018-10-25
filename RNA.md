@@ -37,6 +37,7 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 FASTQ and FAST5 files for the dataset have been split by centre and sample. All runs MinION unless noted.
 
 | Centre  | Run # | SampleType | Kit | Pore | Links |
+
 | Bham | Run1 | RNA | SQK-RNA001 | R9.4 | [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.fail.dedup.fastq), [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run1_20171009_DirectRNA.files.txt) | 
 | Bham | Run2 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run2_20171011_DirectRNA.files.txt) (GridION) | 
 | Bham | Run3 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run3_20171011_directRNA.files.txt) (GridION) | 
