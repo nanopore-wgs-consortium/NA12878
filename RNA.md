@@ -38,36 +38,36 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 
 | Centre  | Run # | SampleType | Kit | Pore | Links |
 | ------  | ----- | ---------- | --- | ---- | --------------------------------------- |
-| Bham | Run1 | RNA | SQK-RNA001 | R9.4 | [Run1 fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.fail.dedup.fastq), [Run1 pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run1_20171009_DirectRNA.files.txt) | 
-| Bham | Run2 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run2_20171011_DirectRNA.files.txt) (GridION) | 
-| Bham | Run3 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run3_20171011_directRNA.files.txt) (GridION) | 
-| Bham | Run4 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run4_20171011_directRNA.files.txt) (GridION) | 
-| Bham | Run5 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run5_20171011_directRNA.files.txt) (GridION) | 
-  - [Hopkins Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run1_20170928_DirectRNA.files.txt),
-    [Hopkins Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run2_20170928_DirectRNA.files.txt),
-    [Hopkins Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run3_20171003_DirectRNA.files.txt),
-    [Hopkins Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run4_20171003_DirectRNA.files.txt),
-    [Hopkins Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run5_20171003_DirectRNA.files.txt)
-  - [Notts_Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run1_20171025_DirectRNA.files.txt),
-    [Notts_Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run2_20171027_DirectRNA.files.txt),
-    [Notts_Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run3_20171027_DirectRNA.files.txt),
-    [Notts Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run4_20171030_DirectRNA.files.txt),
-    [Notts_Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run5_20171030_DirectRNA.files.txt)
-  - [OICR Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run1_20171006_DirectRNA.files.txt),
-    [OICR Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run2_20171010_DirectRNA.files.txt),
-    [OICR Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run3_20171013_DirectRNA.files.txt),
-    [OICR Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run4_20171030_DirectRNA.files.txt),
-    [OICR Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run5_20171101_DirectRNA.files.txt)
-  - [UBC Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run1_20170907_DirectRNA.files.txt),
-    [UBC Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run2_20170908_DirectRNA.files.txt),
-    [UBC Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run3_20170911_DirectRNA.files.txt),
-    [UBC Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run4_20170920_DirectRNA.files.txt),
-    [UBC_Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run5_20171031_DirectRNA.files.txt)
-  - [UCSC Run1](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run1_20170907_DirectRNA.files.txt),
-    [UCSC Run2](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run2_20170909_DirectRNA.files.txt),
-    [UCSC Run3](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run3_20170912_DirectRNA.files.txt),
-    [UCSC Run4](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run4_20170913_DirectRNA.files.txt),
-    [UCSC Run5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run5_20170922_DirectRNA.files.txt)
+| Bham | Run1 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171009_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run1_20171009_DirectRNA.files.txt) | 
+| Bham | Run2 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171011_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run2_20171011_DirectRNA.files.txt) (GridION) | 
+| Bham | Run3 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run3_20171011_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run3_20171011_directRNA.files.txt) (GridION) | 
+| Bham | Run4 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run4_20171011_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run4_20171011_directRNA.files.txt) (GridION) | 
+| Bham | Run5 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run5_20171011_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Bham_Run5_20171011_directRNA.files.txt) (GridION) | 
+| JHU | Run1 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20170928_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20170928_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run1_20170928_DirectRNA.files.txt),
+| JHU | Run2 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20170928_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20170928_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run2_20170928_DirectRNA.files.txt),
+| JHU | Run3 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run3_20171003_DirectRNA.files.txt),
+| JHU | Run4 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run4_20171003_DirectRNA.files.txt),
+| JHU | Run5 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_FASTQ_20171003_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Hopkins_Run5_20171003_DirectRNA.files.txt)
+| Notts | Run1 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171025_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171025_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run1_20171025_DirectRNA.files.txt),
+| Notts | Run2 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171027_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171027_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run2_20171027_DirectRNA.files.txt),
+| Notts | Run3 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171027_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171027_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run3_20171027_DirectRNA.files.txt),
+| Notts | Run4 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171030_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171030_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run4_20171030_DirectRNA.files.txt),
+| Notts | Run5 | RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171030_DirectRNA.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_FASTQ_20171030_DirectRNA.pass.dedup.fastq), [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/Notts_Run5_20171030_DirectRNA.files.txt)
+| OICR | Run1 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run1_20171006_DirectRNA.files.txt),
+| OICR | Run2 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run2_20171010_DirectRNA.files.txt),
+| OICR | Run3 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run3_20171013_DirectRNA.files.txt),
+| OICR | Run4 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run4_20171030_DirectRNA.files.txt),
+| OICR | Run5 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/OICR_Run5_20171101_DirectRNA.files.txt)
+| UBC | Run1 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run1_20170907_DirectRNA.files.txt),
+| UBC | Run2 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run2_20170908_DirectRNA.files.txt),
+| UBC | Run3 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run3_20170911_DirectRNA.files.txt),
+| UBC | Run4 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run4_20170920_DirectRNA.files.txt),
+| UBC | Run5 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UBC_Run5_20171031_DirectRNA.files.txt)
+| UCSC | Run1 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run1_20170907_DirectRNA.files.txt),
+| UCSC | Run2 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run2_20170909_DirectRNA.files.txt),
+| UCSC | Run3 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run3_20170912_DirectRNA.files.txt),
+| UCSC | Run4 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run4_20170913_DirectRNA.files.txt),
+| UCSC | Run5 | RNA | SQK-RNA001 | R9.4 | [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/UCSC_Run5_20170922_DirectRNA.files.txt)
 
 ## Alignment Files
 
