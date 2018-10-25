@@ -81,6 +81,19 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 | UBC | Run2 | 1D cDNA | SQK-PCS108 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UBC_FASTQ_20171020_1D.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UBC_FASTQ_20171020_1D.pass.dedup.fastq)
 | UCSC | Run1 | 1D cDNA | SQK-PCS108 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_FASTQ_20170919_1D.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_FASTQ_20170919_1D.pass.dedup.fastq)
 | UCSC | Run2 | 1D cDNA | SQK-PCS108 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_FASTQ_20170922_1D.fail.dedup.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_FASTQ_20170922_1D.pass.dedup.fastq)
+|   |  |  |  |  |  |
+| Bham | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run1_20171120_1D2_1Donly.all.dedeup.fastq)
+| Bham | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Bham_Run2_20171120_1D2_1Donly.all.dedeup.fastq)
+| JHU | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run1_20171011_1D2_1Donly.all.dedeup.fastq)
+| JHU | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Hopkins_Run2_20171011_1D2_1Donly.all.dedeup.fastq)
+| Notts | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run1_20171106_1D2_1Donly.all.dedeup.fastq)
+| Notts | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/Notts_Run2_20171108_1D2_1Donly.all.dedeup.fastq)
+| OICR | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run1_20171208_1D2_1Donly.all.dedeup.fastq)
+| OICR | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/OICR_Run2_20171208_1D2_1Donly.all.dedeup.fastq)
+| UBC | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UBC_Run1_20170914_1D2_1Donly.all.dedeup.fastq)
+| UBC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UBC_Run2_20171109_1D2_1Donly.all.dedeup.fastq)
+| UCSC | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run1_20170920_1D2_1Donly.all.dedeup.fastq)
+| UCSC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170926_1D2_1Donly.all.dedeup.fastq)
 
 ## Alignment Files
 
