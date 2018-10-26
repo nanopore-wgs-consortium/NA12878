@@ -53,6 +53,10 @@ All alignments performed using minimap2.
 | cDNA Fail | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam.bai) |
 
 
+## Analyses 
+Various analyses from the consortium work and the associated files can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/phase1_analyses.md).
+
+
 ## Reference Files
 
 ### GRCh38
@@ -78,8 +82,6 @@ GRCh38 and BWA indices used can be downloaded from the pre-computed 1000 genomes
 
 GENCODE v27 files can be found at https://www.gencodegenes.org/human/release_27.html.
 
-## Analyses 
-Various analyses from the consortium work and the associated files can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/phase1_analyses.md).
 
 ## External Links
 
