@@ -34,9 +34,7 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
    - [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
 
 ## FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data
-FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md).
-
-The continous Bulk FAST5 could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md). The continous Bulk FAST5 files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
 
 ## Alignment Files
 
@@ -81,7 +79,7 @@ GRCh38 and BWA indices used can be downloaded from the pre-computed 1000 genomes
 GENCODE v27 files can be found at https://www.gencodegenes.org/human/release_27.html.
 
 ## Analyses 
-Various analyses from the consortium work and the associated files cane be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/phase1_analyses.md).
+Various analyses from the consortium work and the associated files can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/phase1_analyses.md).
 
 ## External Links
 
