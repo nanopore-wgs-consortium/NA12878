@@ -61,10 +61,10 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 | UCSC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170926_1D2_1Donly.all.dedeup.fastq)
 
 ## Bulk FAST5 (Continuous Data)
-Matt Loose acquired continuous data (Bulk File) for each of his consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+Matt Loose acquired continuous data (Bulk FAST5 File) for each of his consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
 
 | Centre  | Run # | SampleType | Kit | Pore | Links |
-| ------  | ----- | ---------- | --------------------------------------- |
+| ------  | ----- | ---------- | --- | ---- | --------------------------------------- |
 | Notts | Run1 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP57501_20171025_FAH20330_MN18458_sequencing_run_Notts_Run1_20171025_DirectRNA_49527.fast5) | 
 | Notts | Run2 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP61583_20171027_FAH20402_MN18658_sequencing_run_Notts_Run2_20171027_DirectRNA_36840.fast5), [Bulk Fast5 rs1](PLSP61583_20171027_FAH20402_MN18658_sequencing_run_Notts_Run2_20171027_DirectRNA_rs1_27930.fast5)
 | Notts | Run3 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP57501_20171027_FAH21946_MN18458_sequencing_run_Notts_Run3_20171027_DirectRNA_22583.fast5) | 
