@@ -33,8 +33,8 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 
    - [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
 
-## FASTQ (Sequence Data) and FAST5 (Raw Signal Data)
-FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/individualRuns.md).
+## FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data
+FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md).
 
 ## Alignment Files
 
@@ -56,7 +56,7 @@ All alignments performed using minimap2.
 ## Reference Files
 
 ### GRCh38
-GRCh38 and BWA indices used can be downloaded from the pre-computed 1000 genomes GRCh38 BWA database at ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/ (with decoys). We also have made them available vis this repository.
+GRCh38 and BWA indices used can be downloaded from the pre-computed 1000 genomes GRCh38 BWA database at ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/GRCh38_reference_genome/ (with decoys). We also have made them available via this repository.
 
    - [GRCh38 full analysis set plus decoy hla](http://s3.amazonaws.com/nanopore-human-wgs/rna/referenceFastaFiles/dna/GRCh38_full_analysis_set_plus_decoy_hla.fa)
    - [GRCh38 full analysis set plus decoy hla.alt](http://s3.amazonaws.com/nanopore-human-wgs/rna/referenceFastaFiles/dna/GRCh38_full_analysis_set_plus_decoy_hla.fa.alt)
