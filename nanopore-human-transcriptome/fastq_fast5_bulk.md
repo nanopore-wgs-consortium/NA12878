@@ -60,4 +60,19 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 | UCSC | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run1_20170920_1D2_1Donly.all.dedeup.fastq)
 | UCSC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170926_1D2_1Donly.all.dedeup.fastq)
 
+## Bulk FAST5 (Continuous Data)
+Matt Loose acquired continuous data (Bulk File) for each of his consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+
+| Centre  | Run # | SampleType | Kit | Pore | Links |
+| ------  | ----- | ---------- | --------------------------------------- |
+| Notts | Run1 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP57501_20171025_FAH20330_MN18458_sequencing_run_Notts_Run1_20171025_DirectRNA_49527.fast5) | 
+| Notts | Run2 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP61583_20171027_FAH20402_MN18658_sequencing_run_Notts_Run2_20171027_DirectRNA_36840.fast5), [Bulk Fast5 rs1](PLSP61583_20171027_FAH20402_MN18658_sequencing_run_Notts_Run2_20171027_DirectRNA_rs1_27930.fast5)
+| Notts | Run3 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP57501_20171027_FAH21946_MN18458_sequencing_run_Notts_Run3_20171027_DirectRNA_22583.fast5) | 
+| Notts | Run4 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP61583_20171030_FAH20153_MN18658_sequencing_run_Notts_Run4_20171030_DirectRNA_94996.fast5) | 
+| Notts | Run5 | RNA | SQK-RNA001 | R9.4 | [Bulk FAST5](PLSP57501_20171030_FAH20248_MN18458_sequencing_run_Notts_Run5_20171030_DirectRNA_21316.fast5) | 
+| | | | | | |
+| Notts | Run1 | 1D cDNA | SQK-PCS108 | R9.4 | [Bulk FAST5](PLSP61583_20171106_FAH20412_MN18458_sequencing_run_Notts_cDNA_Run1_96243.fast5) | 
+| Notts | Run2 | 1D cDNA | SQK-PCS108 | R9.4 | [Bulk FAST5](PLSP61583_20171108_FAH20384_MN18458_sequencing_run_Notts_cDNA_Run2_96783.fast5) | 
+| | | | | | |
+| Notts | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [Bulk FAST5](PLSP57501_20171106_FAH15709_MN18658_sequencing_run_Notts_Run1_1D2_65631.fast5) | 
 

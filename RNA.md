@@ -36,6 +36,8 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 ## FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data
 FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md).
 
+The continous Bulk FAST5 could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+
 ## Alignment Files
 
 All alignments performed using minimap2.
