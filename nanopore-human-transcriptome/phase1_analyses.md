@@ -19,7 +19,7 @@ Isoforms defined from [FLAIR v1.1](https://github.com/BrooksLabUCSC/flair) are i
  - [poly-A primary](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/NA12878_DirectRNA_polyA_primary.txt)
 
 ### Nanopolish indexes for signal analyses
-Here is the zip file containing nanopolish indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. 
+Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. 
 
  - [Nanopolish Indexes](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/rnaconsort.npolish.idx.zip)
 

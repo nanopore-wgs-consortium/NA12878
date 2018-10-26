@@ -37,7 +37,7 @@ FASTQ and FAST5 files for the dataset (split by centre and sample) can be found 
 
 ## Alignment Files
 
-All alignments performed using minimap2.
+All alignments performed using [minimap2](https://github.com/lh3/minimap2).
 
 | FileType | Reference | Params | BAM | BAI |
 | -------- | --------- | ------ | --- | --- |
