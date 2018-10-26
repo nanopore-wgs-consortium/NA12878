@@ -32,7 +32,7 @@ Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs).
 
    - [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
 
-## FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data)
+### FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data)
 FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md). The continous Bulk FAST5 files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
 
 ## Alignment Files
