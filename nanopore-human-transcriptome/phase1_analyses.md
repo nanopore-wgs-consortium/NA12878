@@ -16,4 +16,8 @@ Isoforms defined from FLAIR v1.1 are in [PSL format](https://genome.ucsc.edu/FAQ
 ### Poly(A) calls
 
 ### Nanopolish indexes for signal analyses
+Here is the nanopolish indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. 
+
+ - [Nanopolish Indexes]((http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/rnaconsort.npolish.idx.zip)
+
 
