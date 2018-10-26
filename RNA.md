@@ -21,7 +21,7 @@ We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary
 Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). 
 
 | FileType | # runs | # reads | Mean (b) | Read N50 (b) | Link |
-| -------- | ------- | -------- | ------------ | ---- |
+| -------- | ------ | ------- | -------- | ------------ | ---- |
 | Native RNA Pass | 30 | 10302647 | 1030.24 | 1334 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq.gz) | 
 | Native RNA Fail | 30 | 2686736 | 430.96 | 840 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq.gz) | 
 | | | | | | |
