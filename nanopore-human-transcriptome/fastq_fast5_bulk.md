@@ -61,7 +61,7 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 | UCSC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170926_1D2_1Donly.all.dedeup.fastq)
 
 ## Bulk FAST5 (Continuous Data)
-Matt Loose acquired continuous data (Bulk FAST5 File) for each of his consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+The Notts centre acquired continuous data (Bulk FAST5 File) for each of their consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
 
 | Centre  | Run # | SampleType | Kit | Pore | Links |
 | ------  | ----- | ---------- | --- | ---- | --------------------------------------- |
