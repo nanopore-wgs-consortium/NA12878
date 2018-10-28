@@ -24,7 +24,7 @@ In order to create indexing files to run [nanopolish](https://github.com/jts/nan
 	nanopolish index -d /path/to/raw_fast5s/ -s sequencing_summary.txt reads.fastq
 	nanopolish eventalign --scale-events -n -t 8 --reads reads.fastq --bam reads.bam --genome GRCh38.fasta
 
-Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. 
+Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. Once downloaded, edit the paths appropriately for your usage.
 
  - [Nanopolish Indexes](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/rnaconsort.npolish.idx.zip)
 
