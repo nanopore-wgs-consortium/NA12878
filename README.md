@@ -27,6 +27,6 @@ Please raise issues on this Github repository concerning this dataset.
     * rel3: 39 flowcells, 91240120433 bases, 14183584 reads
     * rel4: added additional 14 flowcells, 23140190547 bases, 1415868 reads
     * rel5 release: June 2018. All data basecalled with Guppy 0.3 (10kb chunk size)
-    * rel1 RNA: 30th November 2016. 30 flowcells (native RNA), 12 flowcells (1D cDNA)
+    * rel1 RNA: 30th November 2017. 30 flowcells (native RNA), 12 flowcells (1D cDNA)
 
     
