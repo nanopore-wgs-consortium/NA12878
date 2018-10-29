@@ -1,4 +1,4 @@
-#!/usr/bin/env RnvRNAipt
+#!/usr/bin/env Rscript
 
 library(calibrate)
 args <- commandArgs(trailingOnly = T)
