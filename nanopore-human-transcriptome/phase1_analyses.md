@@ -17,6 +17,7 @@ Isoforms defined from [FLAIR v1.1](https://github.com/BrooksLabUCSC/flair) are i
 
  - [poly-A all](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/NA12878_DirectRNA_polyA_all.txt)
  - [poly-A primary](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/NA12878_DirectRNA_polyA_primary.txt)
+ - A reproducible pipeline for generating all poly(A) calls from the fast5 data associated to the Oxford Nanopore RNA standards is available [at this repository](https://github.com/paultsw/polya_analysis).
 
 ### Nanopolish indexes for signal analyses
 In order to create indexing files to run [nanopolish](https://github.com/jts/nanopolish) eventalign, then to parse out our alignments by kmer position and associate ionic current information, we used the following commands:
