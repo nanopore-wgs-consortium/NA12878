@@ -29,4 +29,8 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
  - [Nanopolish Indexes](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/rnaconsort.npolish.idx.zip)
 
+### Haplotyping stats
+
+ - [Haplotyping stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Table_S5.HaplotypingStats.txt)
+
 
