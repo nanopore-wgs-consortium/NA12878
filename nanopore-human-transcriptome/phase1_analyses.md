@@ -35,5 +35,5 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
 ### Allele-specific expression
 
- [Genes with allele-specific isoforms](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S6.GenesWithAlleleSpecificIsoformsTEXT.txt)
+ - [Genes with allele-specific isoforms](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S6.GenesWithAlleleSpecificIsoformsTEXT.txt)
 
