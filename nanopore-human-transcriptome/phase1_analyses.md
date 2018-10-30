@@ -31,6 +31,9 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
 ### Haplotyping stats
 
- - [Haplotyping stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Table_S5.HaplotypingStatsBinom_181030.txt)
+ - [Haplotyping stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S5.HaplotypingStatsBinom_HEADER_181030.txt)
 
+### Allele-specific expression
+
+ [Genes with allele-specific isoforms](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S6.GenesWithAlleleSpecificIsoformsTEXT.txt)
 
