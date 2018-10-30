@@ -31,6 +31,6 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
 ### Haplotyping stats
 
- - [Haplotyping stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Table_S5.HaplotypingStats.txt)
+ - [Haplotyping stats](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Table_S5.HaplotypingStatsBinom_181030.txt)
 
 
