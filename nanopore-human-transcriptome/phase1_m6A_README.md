@@ -10,15 +10,16 @@ Intersection of nanopolish eventalign caller output and FLAIR isoform detection 
 	(5) Gene_symbol: Gene name
 
  - [nvrna_evalign_GGACU_stats.txt (23M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_evalign_GGACU_stats.txt)
- This file contains statistics for each genomic position of GGACU motif event mean distribution:
+This file contains statistics for each genomic position of GGACU motif event mean distribution:
 	(1) Position: genomic position of the N⁶-Methyladenosine or Adenine 
 (2) Isoform_ID: Ensembl transcript ID or FLAIR ID 
 	(3) Gene_ID: Ensembl gene ID
-	(4) Mean: Average of the Event_mean distribution 
-	(5) Median: Median of the Event_mean distribution
-	(6) SD: Standard Deviation of the Event_mean distribution
-	(7) Distance: Difference between the Mean of the distribution and the pore model mean (123.8 pA)
-	(8) Gene_symbol: Gene name
+	(4) Reads: Number of reads
+	(5) Mean: Average of the Event_mean distribution 
+	(6) Median: Median of the Event_mean distribution
+	(7) SD: Standard Deviation of the Event_mean distribution
+	(8) Distance: Difference between the Mean of the distribution and the pore model mean (123.8 pA)
+	(9) Gene_symbol: Gene name
 
  - [EEF2_events.txt (519K)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/EEF2_events.txt)
 This file contain the distribution of Modified and Unmodified Event mean levels for nvRNA and Oligo dataset:
