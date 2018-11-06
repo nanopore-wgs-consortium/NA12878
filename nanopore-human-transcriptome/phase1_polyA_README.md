@@ -29,7 +29,8 @@ Intersection of nanopolish poly(A) caller output and FLAIR isoform detection out
 	(3) PolyA_length: Poly(A) tail length
 	(4) Gene_symbol: Gene name
 
-nvrna_polya_genes_stat.txt (762K): Tab-separated variable file containing statistics for each gene poly(A) tail length distribution:
+ - [nvrna_polya_genes_stat.txt (762K)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_polya_genes_stat.txt)
+Tab-separated variable file containing statistics for each gene poly(A) tail length distribution:
 	(1) Isoform_ID: Ensembl transcript ID or FLAIR ID 
 	(2) Gene_ID: Ensembl gene ID
 	(3) Reads: Number of reads associated with the corresponding gene
@@ -39,7 +40,8 @@ nvrna_polya_genes_stat.txt (762K): Tab-separated variable file containing statis
 	(7) Gene_symbol: Gene name
 
 
-nvrna_polya_isoforms_stat.txt (4.9M): This file contains statistics for each isoform poly(A) tail length distribution:
+ - [nvrna_polya_isoforms_stat.txt (4.9M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_polya_isoforms_stat.txt)
+This file contains statistics for each isoform poly(A) tail length distribution:
 	(1) Gene_ID: Ensembl gene ID
 	(2) Reads: Number of reads associated with the corresponding isoform
 	(3) Mean: Mean poly(A) tail length per isoform
@@ -51,14 +53,16 @@ nvrna_polya_isoforms_stat.txt (4.9M): This file contains statistics for each iso
 MODIFICATION README 
 
 
-nvrna_evalign_GGACU_dataframe.txt (858M): Intersection of nanopolish eventalign caller output and FLAIR isoform detection output. Contains the following information as each row represents a GGACU motif within a read:
+ - [nvrna_evalign_GGACU_dataframe.txt (858M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_evalign_GGACU_dataframe.txt)
+Intersection of nanopolish eventalign caller output and FLAIR isoform detection output. Contains the following information as each row represents a GGACU motif within a read:
 	(1) Position: genomic position of the N⁶-Methyladenosine or Adenine 
-(2) Isoform_ID: Ensembl transcript ID or FLAIR ID read maps to
+        (2) Isoform_ID: Ensembl transcript ID or FLAIR ID read maps to
 	(3) Gene_ID: Ensembl gene ID read maps to
 	(4) Event_mean: Aligned nanopore signal events mean to GGACU motif
 	(5) Gene_symbol: Gene name
 
-nvrna_evalign_GGACU_stats.txt (23M): This file contains statistics for each genomic position of GGACU motif event mean distribution:
+ - [nvrna_evalign_GGACU_stats.txt (23M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_evalign_GGACU_stats.txt)
+ This file contains statistics for each genomic position of GGACU motif event mean distribution:
 	(1) Position: genomic position of the N⁶-Methyladenosine or Adenine 
 (2) Isoform_ID: Ensembl transcript ID or FLAIR ID 
 	(3) Gene_ID: Ensembl gene ID
@@ -68,7 +72,8 @@ nvrna_evalign_GGACU_stats.txt (23M): This file contains statistics for each geno
 	(7) Distance: Difference between the Mean of the distribution and the pore model mean (123.8 pA)
 	(8) Gene_symbol: Gene name
 
-EEF2_events.txt (519K): This file contain the distribution of Modified and Unmodified Event mean levels for nvRNA and Oligo dataset:
+ - [EEF2_events.txt (519K)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/EEF2_events.txt)
+This file contain the distribution of Modified and Unmodified Event mean levels for nvRNA and Oligo dataset:
 	(1) state: Either being Modified or Unmodified for GGACU motif
 	(2) event_mean: Event mean level 
 	(3) dataset: Either nvRNA or Oligo
