@@ -22,8 +22,8 @@ PolyA Caller - Primary alignments
 The following intermediate files, generated during execution of the poly(A) pipeline are also provided : 
 
 
-### [nvrna_polya_dataframe.txt (326M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_polya_dataframe.txt (326M)
-    Intersection of nanopolish poly(A) caller output and FLAIR isoform detection output. Contains the following information per read:
+ - [nvrna_polya_dataframe.txt (326M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_polya_dataframe.txt)
+Intersection of nanopolish poly(A) caller output and FLAIR isoform detection output. Contains the following information per read:
 	(1) Isoform_ID: Ensembl transcript ID or FLAIR ID read maps to
 	(2) Gene_ID: Ensembl gene ID read maps to
 	(3) PolyA_length: Poly(A) tail length
