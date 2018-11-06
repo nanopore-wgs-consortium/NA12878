@@ -33,7 +33,7 @@ Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs).
    - [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
 
 ### FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data)
-FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md). The continous Bulk FAST5 files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
+FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](nanopore-human-transcriptome/fastq_fast5_bulk.md). The continous Bulk FAST5 files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
 
 ## Alignment Files
 
@@ -53,12 +53,12 @@ All alignments performed using [minimap2](https://github.com/lh3/minimap2).
 
 
 ## Analyses 
-Various analyses from the consortium work and the associated files can be found [here](https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-transcriptome/phase1_analyses.md).
+Various analyses from the consortium work and the associated files can be found [here](nanopore-human-transcriptome/phase1_analyses.md).
 
 
 ## Reference Files
 
-Details on the reference files used for analyses, and their download links can be found [here](https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-transcriptome/reference.md)
+Details on the reference files used for analyses, and their download links can be found [here](nanopore-human-transcriptome/reference.md)
 
 ## External Links
 
