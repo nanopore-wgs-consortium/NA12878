@@ -1,4 +1,4 @@
-POLY(A)  README 
+## POLY(A)  README 
 
 Two tab-separated text files with the final poly(A) calls for each read are provided: one using only the primary alignments for each read, and one using all alignments. 
 Columns are organized with the following information: 
@@ -50,7 +50,7 @@ This file contains statistics for each isoform poly(A) tail length distribution:
 	(6) Gene_symbol: Gene name
 
 
-MODIFICATION README 
+## MODIFICATION README 
 
 
  - [nvrna_evalign_GGACU_dataframe.txt (858M)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_evalign_GGACU_dataframe.txt)
