@@ -39,6 +39,7 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
 ### Detailed poly-A and m6A README
  - [Poly-A README](https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-transcriptome/phase1_polyA_README.md)
+ - [Poly-A README](phase1_polyA_README.md)
  - [m6A README](https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-transcriptome/phase1_m6A_README.md)
 
 
