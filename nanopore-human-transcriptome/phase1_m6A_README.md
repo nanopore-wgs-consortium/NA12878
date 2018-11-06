@@ -26,4 +26,15 @@ This file contain the distribution of Modified and Unmodified Event mean levels 
 	(2) event_mean: Event mean level 
 	(3) dataset: Either nvRNA or Oligo
 
+ - [nvrna_isoforms_mod_3_threshold.txt (17K)](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna_isoforms_mod_3_threshold.txt)
+This file contains the difference in average current levels between different gene isoforms for GGACU k-mers:
+	(1) Position: genomic position of the N⁶-Methyladenosine or Adenine 
+	(2) Gene: Gene name
+(3) Iso_1: Ensembl transcript ID or FLAIR ID reads map to
+	(4) Iso1_reads: Number of reads
+	(5) Iso_2: Ensembl transcript ID or FLAIR ID reads map to
+	(6) Iso2_reads: Number of reads
+	(7) Diff: Difference in Event_mean distribution between the two isoforms (Iso_1 and Iso_2)
+
+
 
