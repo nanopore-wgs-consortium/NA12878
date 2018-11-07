@@ -37,3 +37,8 @@ Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) 
 
  - [Genes with allele-specific isoforms](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S6.GenesWithAlleleSpecificIsoformsTEXT.txt)
 
+### Detailed poly-A and m6A README
+ - [Poly-A README](phase1_polyA_README.md)
+ - [m6A README](phase1_m6A_README.md)
+
+

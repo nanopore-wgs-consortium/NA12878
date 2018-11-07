@@ -63,7 +63,8 @@ Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_pl
 Adam Phillippy and Sergey Koren have posted a new [Canu 1.7 + WTDBG + Nanopolish](https://gembox.cbcb.umd.edu/triobinning/albacore_canu_wtdbg_nanopolish2.fasta) assembly using a dataset equivalent to the Albacore 2.1 reads above over on their [blog](https://genomeinformatics.github.io/na12878update/).
 
 ## Previous versions
-For previous versions of data (rel3 and rel4), please go to: https://github.com/nanopore-wgs-consortium/NA12878/blob/master/nanopore-human-genome/rel_3_4.md
+
+For previous versions of data (rel3 and rel4), please go to: [rel_3_4](nanopore-human-genome/rel_3_4.md)
 
 # Acknowledgements
 
