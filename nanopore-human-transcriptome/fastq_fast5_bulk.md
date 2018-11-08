@@ -59,6 +59,8 @@ FASTQ and FAST5 files for the dataset have been split by centre and sample. All 
 | UBC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UBC_Run2_20171109_1D2_1Donly.all.dedeup.fastq)
 | UCSC | Run1 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run1_20170920_1D2_1Donly.all.dedeup.fastq)
 | UCSC | Run2 | 1D2 cDNA | SQK-LSK308 | R9.4 | [1D FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/UCSC_Run2_20170926_1D2_1Donly.all.dedeup.fastq)
+|   |  |  |  |  |  |
+| UCSC | Run1 | IVT RNA | SQK-RNA001 | R9.4 | [FASTQ fail](https://s3.amazonaws.com/nanopore-human-wgs/rna/IVT/01_29_18_R94_12878IVT_fail.fastq), [FASTQ pass](https://s3.amazonaws.com/nanopore-human-wgs/rna/IVT/01_29_18_R94_12878IVT_pass.fastq), [FAST5](https://s3.amazonaws.com/nanopore-human-wgs/rna/IVT/UCSC_Run1_20180129_IVT_RNA.tar.gz)
 
 ## Bulk FAST5 (Continuous Data)
 The Notts centre acquired continuous data (Bulk FAST5 File) for each of their consortium runs. These files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
