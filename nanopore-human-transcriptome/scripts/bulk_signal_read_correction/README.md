@@ -20,6 +20,10 @@ and the second parameter is the path to the bulk FAST5 files.
 $ python3 event_finder.py sequencing_summary.txt <path/to/bulkfile/directory>
 ``` 
 
+### Output
+Writes two files, `end_events.csv` and `start_events.csv` containing the events seen surrounding the ends
+and starts of reads respectively.
+
 export.py
 =========
 `export.py` is a module that can export arbitrary regions of a bulk FAST5 file as call-able read FAST5
