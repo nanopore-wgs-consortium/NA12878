@@ -29,16 +29,19 @@ def export_read_file(channel, start_index, end_index, bulkfile, output_dir, remo
 
     Returns
     -------
-    None
+    str
+        filename of the exported read
     """
     out_filename = bulkfile["UniqueGlobalKey"]["context_tags"].attrs["filename"].decode('utf8')
-
-    output_arg = "{dir}{fn}_bulkvis-read_{start}-{end}_ch_{ch}.fast5".format(
-        dir=output_dir,
+    out_filename = '{fn}_bulkvis-read_{start}-{end}_ch_{ch}.fast5'.format(
         fn=out_filename,
         start=start_index,
         end=end_index,
         ch=channel
+    )
+    output_arg = "{dir}{fn}".format(
+        dir=output_dir,
+        fn=out_filename
     )
 
     readfile = h5py.File(output_arg, "w")
@@ -114,4 +117,4 @@ def export_read_file(channel, start_index, end_index, bulkfile, output_dir, remo
     )
 
     readfile.close()
-    return
+    return out_filename
