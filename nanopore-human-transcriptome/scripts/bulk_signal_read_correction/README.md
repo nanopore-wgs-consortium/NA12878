@@ -18,6 +18,9 @@ extended signal traces. This is primarily for checking that the newly generated 
 the original reads.
 ```bash
 $ bokeh serve signal_server --show --args <folder>/ends_read_info.txt <folder>/ends/original/fast5/ <folder>/ends/fast5/
+```
+OR
+```bash
 $ bokeh serve signal_server --show --args <folder>/starts_read_info.txt <folder>/starts/original/fast5/ <folder>/starts/fast5/
 ```
 
