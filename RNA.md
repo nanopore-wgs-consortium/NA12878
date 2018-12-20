@@ -25,8 +25,8 @@ Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs).
 | Native RNA Pass | 30 | 10302647 | 1030.24 | 1334 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq.gz) | 
 | Native RNA Fail | 30 | 2686736 | 430.96 | 840 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq.gz) | 
 | | | | | | |
-| cDNA Pass | 12 | 15152101 | 1030.24 | 1072 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq) | 
-| cDNA Pass | 12 | 9129338 | 1030.24 | 841 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq) | 
+| cDNA Pass | 12 | 15152101 | 932.86 | 1072 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq) | 
+| cDNA Fail | 12 | 9129338 | 661.90 | 841 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq) | 
 
 ### Combined Albacore Summary
 
