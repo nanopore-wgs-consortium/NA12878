@@ -1,7 +1,17 @@
+bokeh==1.0.2
 h5py==2.8.0
+Jinja2==2.10
+MarkupSafe==1.1.0
 numpy==1.15.4
+ont-fast5-api==1.0.1
+packaging==18.0
 pandas==0.23.4
+Pillow==5.3.0
+progressbar33==2.4
+pyparsing==2.3.0
 python-dateutil==2.7.5
 pytz==2018.7
+PyYAML==3.13
 six==1.12.0
+tornado==5.1.1
 tqdm==4.28.1
