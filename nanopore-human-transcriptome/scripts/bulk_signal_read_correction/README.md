@@ -3,6 +3,7 @@ bulk_signal_read_correction
 
 Table of Contents
 =================
+ - [Setup environment](#setup-environment)
  - [bulk_signal_read_correction](#bulk_signal_read_correction)
  - [Table of Contents](#table-of-contents)
  - [signal_server](#signal_server)
@@ -10,6 +11,26 @@ Table of Contents
  - [export.py](#exportpy)
  - [make_reads.py](#make_readspy)
 
+
+Setup environment
+=================
+To set up a compatible environment, create a python3 virtual environment:
+
+```bash
+$ python3 -m venv path/to/env
+```
+
+Activate the environment:
+
+```bash
+$ . path/to/env/bin/activate
+```
+
+Install required packages:
+
+```bash
+$ pip install -r requiremnts.txt
+```
 
 signal_server
 =============
