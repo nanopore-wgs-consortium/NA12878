@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # $1 is the input name
 
 zgrep -F -f "$1"/ends_filenames.txt Notts_all.txt > "$1"/ends/urls.txt
