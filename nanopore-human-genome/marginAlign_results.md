@@ -9,16 +9,9 @@ reference.
 
 | Chrom | BAM                                                                                      |
 |  ---  | ---------------------------------------------------------------------------------------- |
-| Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_realigned.bam)   |
-| Chr20 | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr20/chr20_realigned.bam) |
-| Chr22 | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr22/chr22_realigned.bam) |
+| Chr10  | [BAM](https://s3-us-west-2.amazonaws.com/miten-human-genome-paper/chr10/chr10_realigned.bam)   |
+| Chr20 | [BAM](https://s3-us-west-2.amazonaws.com/miten-human-genome-paper/chr20/chr20_realigned.bam) |
+| ChrX | [BAM](https://s3-us-west-2.amazonaws.com/miten-human-genome-paper/chrX/chrX_realigned.bam) |
 
-### Non-chained BAMs
-These alignments were produced by learning the HMM from the guide (BWA) alignment then realigning, the chaining step was
-skipped and so each read may have multiple alignments
-
-| Chrom | BAM                                                                                             |
-|  ---  | ----------------------------------------------------------------------------------------------- |
-| Chr7  | [BAM](https://s3-us-west-2.amazonaws.com/arand-minion-na12878/chr7/chr7_noChain_realigned.bam_) |
 
 
