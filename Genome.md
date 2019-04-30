@@ -44,6 +44,10 @@ Data was downloaded from the ENA raw submission. Guppy was run on the GridION X5
 Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_plus_decoy_hla.fa``) and samtools 1.6 with new -L flag:
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam">BAM</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam.bai">BAI</a>
+   
+   Please note that all fast5 files for this project are available from the European Nucletide Archive under the following project.
+   
+   - <a href="http://www.ebi.ac.uk/ena/data/view/PRJEB23027">PRJEB23027</a>
 
 ## Albacore 2.1
 
