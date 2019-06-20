@@ -1,6 +1,6 @@
-# rel5 (genomic DNA)
+# rel5 (genomic DNA) *now deprecated*
 
-rel5 is a merger of NA12878 DNA sequencing data from rel3 (regular sequencing protocols) and rel4 (ultra-read set), recalled with the latest generation callers (Albacore 2.1 and guppy 0.3).
+rel5 was a merger of NA12878 DNA sequencing data from rel3 (regular sequencing protocols) and rel4 (ultra-read set), recalled with Albacore 2.1 and guppy 0.3.
 
 ## Notes on chunk size
 
@@ -23,6 +23,10 @@ Data was downloaded from the ENA raw submission. Guppy was run on the GridION X5
 Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_plus_decoy_hla.fa``) and samtools 1.6 with new -L flag:
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam">BAM</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/rel5-guppy-0.3.0-chunk10k.sorted.bam.bai">BAI</a>
+   
+   Please note that all fast5 files for this project are available from the European Nucletide Archive under the following project.
+   
+   - <a href="http://www.ebi.ac.uk/ena/data/view/PRJEB23027">PRJEB23027</a>
 
 ## Albacore 2.1
 
@@ -31,7 +35,7 @@ included for completeness.
 
 ### Downloads
 
-   - <a href="http://s3.amazonaws.com/NA12878-Albacore2.1.fastq.gz">Albacore 2.1</a>
+   - <a href="http://s3.amazonaws.com/nanopore-human-wgs/NA12878-Albacore2.1.fastq.gz">Albacore 2.1</a>
 
 Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_plus_decoy_hla.fa``):
 
@@ -39,5 +43,4 @@ Minimap2 alignments (``minimap2 -t 12 -ax map-ont -L GRCh38_full_analysis_set_pl
 
 ## Assembly
 
-Adam Phillippy and Sergey Koren have posted a new [Canu 1.7 + WTDBG + Nanopolish](https://gembox.cbcb.umd.edu/triobinning/albacore_canu_wtdbg_nanopolish2.fasta) assembly using a dataset equivalent to the Albacore 2.1 reads above over on their [blog](https://genomeinformatics.github.io/na12878update/).
-
+Adam Phillippy and Sergey Koren posted a new [Canu 1.7 + WTDBG + Nanopolish](https://gembox.cbcb.umd.edu/triobinning/albacore_canu_wtdbg_nanopolish2.fasta) assembly using a dataset equivalent to the Albacore 2.1 reads above over on their [blog](https://genomeinformatics.github.io/na12878update/).
