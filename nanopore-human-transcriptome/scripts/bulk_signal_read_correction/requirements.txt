@@ -11,7 +11,7 @@ progressbar33==2.4
 pyparsing==2.3.0
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.1
 six==1.12.0
 tornado==5.1.1
 tqdm==4.28.1
