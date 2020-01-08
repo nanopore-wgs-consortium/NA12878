@@ -15,7 +15,7 @@ Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). The data were
 
 | FileType | # runs | Link |
 | -------- | ------ | ---- |
-| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_3.2.6_sequencing_summary.txt.gz) ] |
+| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_3.2.6_sequencing_summary.txt.gz) |
 | | | |
 | cDNA | 12 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_3.2.6_sequencing_summary.txt.gz) |
 
