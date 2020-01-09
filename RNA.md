@@ -4,6 +4,22 @@
 
 We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using direct RNA sequencing kits (30 flowcells) and using the 1D ligation kit (SQK-LSK108) on R9.4 flowcells using R9.4 chemistry (FLO-MIN106). RNA from the GM12878 human cell line (Ceph/Utah pedigree) was extracted from the cultured cell line.
 
+## Data reuse and license
+We encourage the reuse of this data in your own analysis and publications which is released under the Creative Commons CC-BY license. Therefore we would be grateful if you would cite the reference below if you do.
+
+## Citation
+Rachael E. Workman, Alison D. Tang, Paul S. Tang, Miten Jain, John R. Tyson, Roham Razaghi, Philip C. Zuzarte, Timothy Gilpatrick, Alexander Payne, Joshua Quick, Norah Sadowski, Nadine Holmes, Jaqueline Goes de Jesus, Karen L. Jones, Cameron M. Soulette, Terrance P. Snutch, Nicholas Loman, Benedict Paten, Matthew Loose, Jared T. Simpson, Hugh E. Olsen, Angela N. Brooks, Mark Akeson & Winston Timp. Nanopore native RNA sequencing of a human poly(A) transcriptome. Nature Methods doi: <a href="https://doi.org/10.1038/s41592-019-0617-2">doi:10.1038/s41592-019-0617-2</a>
+
+## rel2 [Update January 2020] Basecalls (Guppy 3.2.6)
+Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). The data were rebasecalled using Guppy 3.2.6 flip flop model.
+
+| FileType | # runs | Link |
+| -------- | ------ | ---- |
+| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-DirectRNA_All.files.txt) |
+| | | |
+| cDNA | 12 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-cDNA_All.files.txt) |
+| IVT RNA | 2 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-IVT-RNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-IVT-RNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-IVT-RNA_All.files.txt) |
+
 ## Contributors
 
  - Nick Loman, Josh Quick, Andrew Beggs, Jaqueline Goes de Jesus (_University of Birmingham_)
@@ -12,10 +28,6 @@ We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genom
  - Jared Simpson, Phil Zuzarte, Paul Tang (_OICR_)
  - Terry Snutch, John Tyson (_UBC_)
  - Mark Akeson, Angela N. Brooks, Hugh E. Olsen, Benedict Paten, Alison Tang, Miten Jain (_UCSC_)
-
-## Acknowledgements
-
-We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary Dokos at Oxford Nanopore Technologies for technical and logistical assistance.
 
 ## Basecalls (Albacore 2.1)
 Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). 
@@ -68,3 +80,9 @@ Heng Li has make a [custom track for the UCSC genome browser](http://genome.ucsc
 ## References
 
 [1] Li, H  Twitter [link](https://twitter.com/lh3lh3/status/937166309414064129)
+
+## Acknowledgements
+
+We are most grateful to Daniel Garalde, Daniel Jachimowicz, Andy Heron, Rosemary Dokos at Oxford Nanopore Technologies for technical and logistical assistance. We are grateful to Angel Pizarro and Jed Sundwall at Amazon Web Services for hosting this dataset as an <a href="https://aws.amazon.com/government-education/open-data/">AWS Open Data</a> set.
+
+
