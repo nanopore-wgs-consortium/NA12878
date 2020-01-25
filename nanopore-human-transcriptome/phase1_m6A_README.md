@@ -42,7 +42,7 @@ This file contains the difference in average current levels between different ge
 ### Files for flair_sensitive, flair_stringent, gencode_sensitive, and gencode_stringent isoform sets
 
  | Isoform set | Dataframe | Stats bonferroni |
- | ----------- | --------- | ----------- | -------------- | 
+ | ----------- | --------- | ---------------- | 
  | flair_sensitive | [nvrna_evalign_GGACU_dataframe_sensitive.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/nvrna_evalign_GGACU_dataframe_sensitive.txt) | [flair_sensitive_mod_stats_bonferroni.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/flair_sensitive_mod_stats_bonferroni.txt) |
  | flair_stringent | [nvrna_evalign_GGACU_dataframe_stringent.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/nvrna_evalign_GGACU_dataframe_stringent.txt) | [flair_stringent_mod_stats_bonferroni.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/flair_stringent_mod_stats_bonferroni.txt) |
  | gencode_sensitive | [nvrna_evalign_GGACU_dataframe_gencode_sensitive.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/nvrna_evalign_GGACU_dataframe_gencode_sensitive.txt) | [gencode_sensitive_mod_stats_bonferroni.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/gencode_sensitive_mod_stats_bonferroni.txt) |
