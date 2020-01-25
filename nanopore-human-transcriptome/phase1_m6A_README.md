@@ -10,34 +10,22 @@ Intersection of nanopolish eventalign caller output and FLAIR isoform detection 
     - (4) Event_mean: Aligned nanopore signal events mean to GGACU motif
     - (5) Gene_symbol: Gene name
 
- - nvrna_evalign_GGACU_stats.txt
-This file contains statistics for each genomic position of GGACU motif event mean distribution:
-    - (1) Position: genomic position of the N⁶-Methyladenosine or Adenine
-(2) Isoform_ID: Ensembl transcript ID or FLAIR ID
-    - (3) Gene_ID: Ensembl gene ID
-    - (4) Reads: Number of reads
-    - (5) Mean: Average of the Event_mean distribution
-    - (6) Median: Median of the Event_mean distribution
-    - (7) SD: Standard Deviation of the Event_mean distribution
-    - (8) Distance: Difference between the Mean of the distribution and the pore model mean (123.8 pA)
-    - (9) Gene_symbol: Gene name
-
- - EEF2_events.txt
-This file contain the distribution of Modified and Unmodified Event mean levels for nvRNA and Oligo dataset:
-    - (1) state: Either being Modified or Unmodified for GGACU motif
-    - (2) event_mean: Event mean level
-    - (3) dataset: Either nvRNA or Oligo
-
- - nvrna_isoforms_mod_3_threshold.txt
-This file contains the difference in average current levels between different gene isoforms for GGACU k-mers:
-    - (1) Position: genomic position of the N⁶-Methyladenosine or Adenine
-    - (2) Gene: Gene name
-    - (3) Iso_1: Ensembl transcript ID or FLAIR ID reads map to
-    - (4) Iso1_reads: Number of reads
-    - (5) Iso_2: Ensembl transcript ID or FLAIR ID reads map to
-    - (6) Iso2_reads: Number of reads
-    - (7) Diff: Difference in Event_mean distribution between the two isoforms (Iso_1 and Iso_2)
-
+ - mod_bonferroni_stats.txt - This file contains isoform-specific statistical testing followed by bonferroni correcion:
+    - (1) Position 
+    - (2)  Gene ID
+    - (3)  Iso_1: The first isoform to analyze 
+    - (4)  Iso_1_#events: Number of events for isoform 1
+    - (6) Iso1_median: The median current value associated with isoform 1
+    - (7)  Iso_2: The second isoform to analyze 
+    - (8)  Iso_2_#events: Number of events for isoform 2
+    - (9) Iso2_median: The median current value associated with isoform 2
+    - (10) Pval_kruskal: p-value for Kruskal Wallis statistical test
+    - (11) Pval_KS: p-value for Kolmogorov–Smirnov statistical test
+    - (12) Pval_ttest: p-value for student’s t-test 
+    - (13) Pval_kruskal_corrected	: Correced p-value for Kruskal Wallis statistical test
+    - (14) Pval_KS_corrected: Corrected p-value for Kolmogorov–Smirnov statistical test
+    - (15) Pval_ttest_corrected: Corrected p-value for student’s t-test 
+    - (16) Reject: Whether the null hypothesis is rejected (True) and two isoforms have statistically different current distributions
 
 ### Files for flair_sensitive, flair_stringent, gencode_sensitive, and gencode_stringent isoform sets
 
