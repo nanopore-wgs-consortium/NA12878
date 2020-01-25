@@ -1,4 +1,7 @@
-This page contains brief information and files from the consortium analysis.
+# Analyses
+
+This page contains updated information and files from the consortium analysis included in the manuscript published in [Nature Methods](https://www.nature.com/articles/s41592-019-0617-2).
+
 ### Performance measurements
 We calculated sequencing statistics using [marginStats](https://github.com/benedictpaten/marginAlign) on alignment of native RNA and cDNA reads to gencode.v27.transcripts.fa using minimap2 (_-ax map-ont_ mode). We created a summary of unique genes and isoforms detecte by native RNA sequence data upon alignments fo the GENCODE v27 reference sequence set. Additionally, we calculated 5mers in sequence data relative to FLAIR high-confidence reference isoforms. 
 
@@ -6,12 +9,12 @@ We calculated sequencing statistics using [marginStats](https://github.com/bened
  - [Kmer counts](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/Supplementary_Tables_S3_S4.Kmer_counts_nativeRNA_cDNA.xlsx)
  
 ### FLAIR isoforms
-We used GENCODE v24 to align the pass native RNA and pass cDNA reads.  
-Isoforms defined from [FLAIR v1.1](https://github.com/BrooksLabUCSC/flair) are in [PSL format](https://genome.ucsc.edu/FAQ/FAQformat.html#format2). From the native RNA data, we generated two sets of isoforms: set A and set B. Set A contains all isoforms (71,899 isoforms) from default FLAIR output with a minimum of 5 supporting reads, as described in the Online Methods. Set B (50,039 isoforms) is a more stringent set of nvRNA isoforms than set A. To generate set B, set A isoforms that are subsets of longer set A isoforms are removed and only the longest isoform of each unique splice junction chain is retained. We also have a set of FLAIR isoforms defined from cDNA data (99,574 isoforms).
+The [FLAIR](https://github.com/BrooksLabUCSC/flair) isoforms are in [PSL](https://genome.ucsc.edu/FAQ/FAQformat.html#format2) format. We have provided tab-delimited files that specify the names of all the reads (column 1) and the corresponding [GENCODE v27 isoforms](https://www.gencodegenes.org/human/release_27.html) for each read (column 2). We used the native RNA reads with Lab 6 reads removed to generate these isoform sets. The "sensitive" sets retain the isoforms that follow the  criterion that each isoform has a minimum of three supporting reads, with each supporting read mapping with MAPQ>0. Isoforms are filtered out from these sets to generate the "stringent" sets. The "stringent" criteria maintain that the isoform should have a minimum of 3 supporting reads that span >= 80% of the isoform and a minimum of 25 nt into the first and last exons.
 
- - [nvrna.flair.isoforms.setA.psl](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna.flair.isoforms.setA.psl)
- - [nvrna.flair.isoforms.setB.psl](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/nvrna.flair.isoforms.setB.psl)
- - [cdna.flair.isoforms.psl](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/cdna.flair.isoforms.psl)
+ - [nvrna.190415.190419.isoforms.stringent.21columns.queryfixed.psl](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/nvrna.190415.190419.isoforms.stringent.21columns.queryfixed.psl)
+ - [nvrna.190415.isoforms.sensitive.21columns.queryfixed.psl](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/nvrna.190415.isoforms.sensitive.21columns.queryfixed.psl)
+ - [gencode.v27.nobham.nvrna.mapont.q1.map.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/gencode.v27.nobham.nvrna.mapont.q1.map.txt)
+ - [gencode.v27.nobham.nvrna.mapont.q1.stringent.map.190420.190421.txt](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase2_analyses/gencode.v27.nobham.nvrna.mapont.q1.stringent.map.190420.190421.txt)
  
 ### Poly(A) calls
 
@@ -25,7 +28,7 @@ In order to create indexing files to run [nanopolish](https://github.com/jts/nan
 	nanopolish index -d /path/to/raw_fast5s/ -s sequencing_summary.txt reads.fastq
 	nanopolish eventalign --scale-events -n -t 8 --reads reads.fastq --bam reads.bam --genome GRCh38.fasta
 
-Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) indexes for the native RNA and IVT RNA data. These were used for ionic current-level analyses of m6A and inosine modifications. Once downloaded, edit the paths appropriately for your usage.
+Here is the zip file containing [nanopolish](https://github.com/jts/nanopolish) indexes for the native RNA and IVT RNA data ([rel1](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-transcriptome/fastq_fast5_bulk.md)). These were used for ionic current-level analyses of m6A and inosine modifications. Once downloaded, edit the paths appropriately for your usage.
 
  - [Nanopolish Indexes](http://s3.amazonaws.com/nanopore-human-wgs/rna/phase1_analyses/rnaconsort.npolish.idx.zip)
 
