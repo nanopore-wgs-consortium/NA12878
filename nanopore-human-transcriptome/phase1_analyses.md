@@ -1,4 +1,4 @@
-# Phase 2 analyses
+# Analyses
 
 This page contains updated information and files from the consortium analysis included in the manuscript published in [Nature Methods](https://www.nature.com/articles/s41592-019-0617-2).
 

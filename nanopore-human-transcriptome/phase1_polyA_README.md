@@ -50,7 +50,7 @@ This file contains statistics for each isoform poly(A) tail length distribution:
 	(6) Gene_symbol: Gene name
 
 
-## files for flair_sensitive, flair_stringent, gencode_sensitive, and gencode_stringent isoform sets
+### Files for flair_sensitive, flair_stringent, gencode_sensitive, and gencode_stringent isoform sets
 
  | Isoform set | Dataframe | Stats genes | Stats isoforms | 
  | ----------- | --------- | ----------- | -------------- | 
