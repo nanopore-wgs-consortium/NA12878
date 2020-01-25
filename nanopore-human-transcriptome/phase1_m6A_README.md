@@ -11,8 +11,8 @@ Intersection of nanopolish eventalign caller output and FLAIR isoform detection 
     - (5) Gene_symbol: Gene name
 
  - mod_bonferroni_stats.txt - This file contains isoform-specific statistical testing followed by bonferroni correcion:
-    - (1) Position 
-    - (2)  Gene ID
+    - (1) Position: genomic position of the N⁶-Methyladenosine or Adenine 
+    - (2)  Gene ID: Ensembl transcript ID or FLAIR ID read maps to
     - (3)  Iso_1: The first isoform to analyze 
     - (4)  Iso_1_#events: Number of events for isoform 1
     - (6) Iso1_median: The median current value associated with isoform 1
