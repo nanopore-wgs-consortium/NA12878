@@ -10,15 +10,15 @@ We encourage the reuse of this data in your own analysis and publications which 
 ## Citation
 Rachael E. Workman, Alison D. Tang, Paul S. Tang, Miten Jain, John R. Tyson, Roham Razaghi, Philip C. Zuzarte, Timothy Gilpatrick, Alexander Payne, Joshua Quick, Norah Sadowski, Nadine Holmes, Jaqueline Goes de Jesus, Karen L. Jones, Cameron M. Soulette, Terrance P. Snutch, Nicholas Loman, Benedict Paten, Matthew Loose, Jared T. Simpson, Hugh E. Olsen, Angela N. Brooks, Mark Akeson & Winston Timp. Nanopore native RNA sequencing of a human poly(A) transcriptome. Nature Methods doi: <a href="https://doi.org/10.1038/s41592-019-0617-2">doi:10.1038/s41592-019-0617-2</a>
 
-## rel2 [Update January 2020] Basecalls (Guppy 3.2.6)
-Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). The data were rebasecalled using Guppy 3.2.6 flip flop model.
+## rel2 [fixed] [Update December 2020] Basecalls (Guppy 4.2.2)
+Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). The data were rebasecalled using Guppy 4.2.2 flip flop model.
 
 | FileType | # runs | Link |
 | -------- | ------ | ---- |
-| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-DirectRNA_All.files.txt) |
+| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-DirectRNA_All.files.txt) |
 | | | |
-| cDNA | 12 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-cDNA_All.files.txt) |
-| IVT RNA | 2 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-IVT-RNA_All_Guppy_3.2.6.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-IVT-RNA_All_Guppy_3.2.6_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-IVT-RNA_All.files.txt) |
+| cDNA | 12 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-cDNA_All.files.txt) |
+| IVT RNA | 2 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-IVT-RNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-IVT-RNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-IVT-RNA_All.files.txt) |
 
 ## Contributors
 
