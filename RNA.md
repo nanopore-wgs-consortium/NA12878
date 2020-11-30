@@ -15,10 +15,10 @@ Full Native RNA dataset (30 runs), full cDNA dataset (12 runs), and IVT RNA data
 
 | FileType | # runs | Link |
 | -------- | ------ | ---- |
-| Native RNA | 30 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-DirectRNA_All.files.txt) |
+| Native RNA | 30 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](https://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](https://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-DirectRNA_All.files.txt) |
 | | | |
-| cDNA | 12 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-cDNA_All.files.txt) |
-| IVT RNA | 2 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-IVT_RNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-IVT_RNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-IVT-RNA_All.files.txt) |
+| cDNA | 12 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](https://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-cDNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](https://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-cDNA_All.files.txt) |
+| IVT RNA | 2 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-IVT_RNA_All_Guppy_4.2.2.fastq.gz), [Summary File (gzip)](https://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-IVT_RNA_All_Guppy_4.2.2_sequencing_summary.txt.gz), [Multi_FAST5](https://s3.amazonaws.com/nanopore-human-wgs/rna/links/NA12878-IVT-RNA_All.files.txt) |
 
 ## Contributors
 
@@ -34,15 +34,15 @@ Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs).
 
 | FileType | # runs | # reads | Mean (b) | Read N50 (b) | Link |
 | -------- | ------ | ------- | -------- | ------------ | ---- |
-| Native RNA Pass | 30 | 10302647 | 1030.24 | 1334 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq.gz) | 
-| Native RNA Fail | 30 | 2686736 | 430.96 | 840 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq.gz) | 
+| Native RNA Pass | 30 | 10302647 | 1030.24 | 1334 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.pass.dedup.fastq.gz) | 
+| Native RNA Fail | 30 | 2686736 | 430.96 | 840 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-DirectRNA.fail.dedup.fastq.gz) | 
 | | | | | | |
-| cDNA Pass | 12 | 15152101 | 932.86 | 1072 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq) | 
-| cDNA Fail | 12 | 9129338 | 661.90 | 841 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq) | 
+| cDNA Pass | 12 | 15152101 | 932.86 | 1072 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.pass.dedup.fastq) | 
+| cDNA Fail | 12 | 9129338 | 661.90 | 841 | [FASTQ](https://s3.amazonaws.com/nanopore-human-wgs/rna/fastq/NA12878-cDNA-1D.fail.dedup.fastq) | 
 
 ### Combined Albacore Summary
 
-   - [Summary File (gzip)](http://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
+   - [Summary File (gzip)](https://s3.amazonaws.com/nanopore-human-wgs/rna/summaries/NA12878-DirectRNA-cDNA-summary.dedup.txt.gz)
 
 ### FASTQ (Sequence Data), FAST5 (Raw Signal Data), and Bulk FAST5 (Continuous Data)
 FASTQ and FAST5 files for the dataset (split by centre and sample) can be found [here](nanopore-human-transcriptome/fastq_fast5_bulk.md). The continous Bulk FAST5 files could be visualized using [bulkvis](https://github.com/LooseLab/bulkvis).
@@ -53,15 +53,15 @@ All alignments performed using [minimap2](https://github.com/lh3/minimap2).
 
 | FileType | Reference | Params | BAM | BAI |
 | -------- | --------- | ------ | --- | --- |
-| Native RNA Pass | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai) | 
-| Native RNA Pass | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai) |
-| Native RNA Fail | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai) |
-| Native RNA Fail | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai) |
+| Native RNA Pass | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai) | 
+| Native RNA Pass | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.pass.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai) |
+| Native RNA Fail | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.hg38.minimap2.sorted.bam.bai) |
+| Native RNA Fail | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-DirectRNA.fail.dedup.NoU.fastq.SIRVome.minimap2.sorted.bam.bai) |
 | | | | | |
-| cDNA Pass | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.hg38.minimap2.sorted.bam.bai) | 
-| cDNA Pass | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.SIRVome.minimap2.sorted.bam.bai) |
-| cDNA Fail | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.hg38.minimap2.sorted.bam.bai) |
-| cDNA Fail | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](http://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam.bai) |
+| cDNA Pass | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.hg38.minimap2.sorted.bam.bai) | 
+| cDNA Pass | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.pass.dedup.fastq.SIRVome.minimap2.sorted.bam.bai) |
+| cDNA Fail | GRCh38_full_analysis_set_plus_decoy_hla.fa | -ax splice -uf -k14 | [hg38 BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.hg38.minimap2.sorted.bam) | [hg38 BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.hg38.minimap2.sorted.bam.bai) |
+| cDNA Fail | SIRVome_isoforms_ERCCs_170612a.fasta | -ax splice --splice-flank=no | [SIRVome BAM](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam) | [SIRVome BAI](https://s3.amazonaws.com/nanopore-human-wgs/rna/bamFiles/NA12878-cDNA-1D.fail.dedup.fastq.SIRVome.minimap2.sorted.bam.bai) |
 
 
 ## Analyses 
@@ -74,7 +74,7 @@ Details on the reference files used for analyses, and their download links can b
 
 ## External Links
 
-Heng Li has make a [custom track for the UCSC genome browser](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr6:43,767,094-43,788,458&hgct_customText=track%20type%3DbigBed%20name%3DNA12878-DirectRNA.minimap2-2.5%20useScore%3D1%20visibility%3D4%20itemRgb%3D%22On%22%20bigDataUrl%3Dhttps%3A%2F%2Ffiles.osf.io%2Fv1%2Fresources%2Fb5nm2%2Fproviders%2Fosfstorage%2F5a2347599ad5a10272ed5739%3Faction%3Ddownload%26version%3D1%26direct) from the direct RNA dataset. Thanks Heng!  [1]
+Heng Li has make a [custom track for the UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr6:43,767,094-43,788,458&hgct_customText=track%20type%3DbigBed%20name%3DNA12878-DirectRNA.minimap2-2.5%20useScore%3D1%20visibility%3D4%20itemRgb%3D%22On%22%20bigDataUrl%3Dhttps%3A%2F%2Ffiles.osf.io%2Fv1%2Fresources%2Fb5nm2%2Fproviders%2Fosfstorage%2F5a2347599ad5a10272ed5739%3Faction%3Ddownload%26version%3D1%26direct) from the direct RNA dataset. Thanks Heng!  [1]
 
 
 ## References
