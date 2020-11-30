@@ -11,7 +11,7 @@ We encourage the reuse of this data in your own analysis and publications which 
 Rachael E. Workman, Alison D. Tang, Paul S. Tang, Miten Jain, John R. Tyson, Roham Razaghi, Philip C. Zuzarte, Timothy Gilpatrick, Alexander Payne, Joshua Quick, Norah Sadowski, Nadine Holmes, Jaqueline Goes de Jesus, Karen L. Jones, Cameron M. Soulette, Terrance P. Snutch, Nicholas Loman, Benedict Paten, Matthew Loose, Jared T. Simpson, Hugh E. Olsen, Angela N. Brooks, Mark Akeson & Winston Timp. Nanopore native RNA sequencing of a human poly(A) transcriptome. Nature Methods doi: <a href="https://doi.org/10.1038/s41592-019-0617-2">doi:10.1038/s41592-019-0617-2</a>
 
 ## rel2 [fixed] [Update December 2020] Basecalls (Guppy 4.2.2)
-Full Native RNA dataset (30 runs) and full cDNA dataset (12 runs). The data were rebasecalled using Guppy 4.2.2 flip flop model.
+Full Native RNA dataset (30 runs), full cDNA dataset (12 runs), and IVT RNA dataset. The data were rebasecalled using Guppy 4.2.2 flip flop (hac) models.
 
 | FileType | # runs | Link |
 | -------- | ------ | ---- |
