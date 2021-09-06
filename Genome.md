@@ -14,9 +14,19 @@ We encourage the reuse of this data in your own analysis and publications which 
 
 Miten Jain, Sergey Koren, Karen H Miga, Josh Quick, Arthur C Rand, Thomas A Sasani, John R Tyson, Andrew D Beggs, Alexander T Dilthey, Ian T Fiddes, Sunir Malla, Hannah Marriott, Tom Nieto, Justin O'Grady, Hugh E Olsen, Brent S Pedersen, Arang Rhie, Hollian Richardson, Aaron R Quinlan, Terrance P Snutch, Louise Tee, Benedict Paten, Adam M Phillippy, Jared T Simpson, Nicholas J Loman & Matthew Loose. Nanopore sequencing and assembly of a human genome with ultra-long reads. Nature Biotechnology doi: <a href="https://doi.org/10.1038/nbt.4060">doi:10.1038/nbt.4060</a>.
 
+# rel7 (genomic DNA)
+In May 2021, Oxford Nanopore Technologies released Guppy 5 which incorporates bonito's CRF models and yields accuracy improvements. We have now updated the data set to include those latest improvements.
+
+We are releasing rel7 as a significant update and recommend that this new data set be used for analysis.
+
+FASTQ Data (gz) from the entire rel7 dataset is available here: [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel7/rel_7.fastq.gz)
+
+A sequencing summary file for the entire dataset is available here: [Sequencing Summary](http://s3.amazonaws.com/nanopore-human-wgs/rel7/rel_7_sequencing_summary.txt.gz)
+
+
 # rel6 (genomic DNA)
 
-Since the initial release Guppy basecalling improvements have continued as well as optimisations in file formats (the introduction of mutifast5 files ). To this end, we have updated the data set to incorporate the latest basecalling improvements as well as file formats.
+Since the initial release Guppy basecalling improvements continued as well as optimisations in file formats (the introduction of mutifast5 files ). To this end, we updated the data set to incorporate the latest basecalling improvements as well as file formats.
 
 Earlier releases should now be considered deprecated and not representative of the current state-of-the-art for nanopore sequencing.
 
