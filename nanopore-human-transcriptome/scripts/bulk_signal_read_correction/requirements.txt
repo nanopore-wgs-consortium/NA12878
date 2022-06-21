@@ -2,7 +2,7 @@ bokeh==1.0.2
 h5py==2.8.0
 Jinja2==2.10
 MarkupSafe==1.1.0
-numpy==1.15.4
+numpy==1.22.0
 ont-fast5-api==1.0.1
 packaging==18.0
 pandas==0.23.4
